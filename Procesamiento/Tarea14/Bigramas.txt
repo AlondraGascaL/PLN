@@ -1,0 +1,685 @@
+               Bigramas - Texto 1                 Bigramas - Texto 2               Bigramas - Texto 3
+0                 ['primer', 'd']                  ['ejemplo', 'de']                  ['un', 'texto']
+1                      ['d', 'a']                    ['de', 'texto']       ['texto', 'argumentativo']
+2                     ['a', 'de']           ['texto', 'descriptivo']          ['argumentativo', 'es']
+3                 ['de', 'clase']       ['descriptivo', 'literario']                    ['es', 'uno']
+4                 ['clase', 'se']           ['literario', 'retrato']                   ['uno', 'que']
+5                ['se', 'fueron']                  ['retrato', 'do']                 ['que', 'tiene']
+6              ['fueron', 'como']                        ['do', 'a']                  ['tiene', 'la']
+7                  ['como', 'un']                    ['a', 'aseada']              ['la', 'finalidad']
+8                   ['un', 'sue']                   ['aseada', 'de']              ['finalidad', 'de']
+9                    ['sue', 'o']                   ['de', 'ribera']                 ['de', 'apoyar']
+10                   ['o', 'los']            ['ribera', 'maldonado']                ['apoyar', 'una']
+11                ['los', 'tres']                ['maldonado', 'de']                  ['una', 'idea']
+12              ['tres', 'meses']               ['de', 'bracamonte']            ['idea', 'refutarla']
+13                ['meses', 'de']                ['bracamonte', 'y']               ['refutarla', 'o']
+14           ['de', 'vacaciones']                     ['y', 'anaya']               ['o', 'persuadir']
+15      ['vacaciones', 'pasados']                   ['anaya', 'era']              ['persuadir', 'al']
+16              ['pasados', 'en']                    ['era', 'baja']                 ['al', 'lector']
+17                   ['en', 'el']              ['baja', 'rechoncha']               ['lector', 'para']
+18                ['el', 'campo']         ['rechoncha', 'abigotada']                  ['para', 'que']
+19                ['campo', 'mi']                ['abigotada', 'ya']                  ['que', 'tome']
+20                ['mi', 'madre']                       ['ya', 'no']                   ['tome', 'la']
+21                ['madre', 'me']                    ['no', 'exist']                 ['la', 'posici']
+22                 ['me', 'llev']                     ['exist', 'a']                  ['posici', 'n']
+23               ['llev', 'esta']                       ['a', 'raz']                      ['n', 'de']
+24                 ['esta', 'ma']                       ['raz', 'n']                  ['de', 'quien']
+25                  ['ma', 'ana']                      ['n', 'para']             ['quien', 'escribe']
+26                   ['ana', 'a']                 ['para', 'llamar']                ['escribe', 'el']
+27                    ['a', 'la']                ['llamar', 'talle']                  ['el', 'texto']
+28                ['la', 'secci']                    ['talle', 'al']                   ['texto', 'a']
+29                 ['secci', 'n']                     ['al', 'suyo']                    ['a', 'trav']
+30               ['n', 'baretti']                    ['suyo', 'sus']                    ['trav', 's']
+31            ['baretti', 'para']                 ['sus', 'colores']                      ['s', 'de']
+32        ['para', 'inscribirme']               ['colores', 'vivos']                    ['de', 'una']
+33          ['inscribirme', 'en']                 ['vivos', 'sanos']                 ['una', 'serie']
+34                   ['en', 'la']                   ['sanos', 'pod']                  ['serie', 'de']
+35              ['la', 'tercena']                      ['pod', 'an']             ['de', 'argumentos']
+36       ['tercena', 'elemental']                        ['an', 'm']  ['argumentos', 'estructurados']
+37            ['elemental', 'yo']                         ['m', 's']           ['estructurados', 'y']
+38                   ['yo', 'me']                       ['s', 'que']              ['y', 'coherentes']
+39             ['me', 'acordaba']                      ['que', 'el']            ['coherentes', 'que']
+40            ['acordaba', 'del']                ['el', 'albayalde']               ['que', 'exponen']
+41               ['del', 'campo']                 ['albayalde', 'y']             ['exponen', 'dicho']
+42                 ['campo', 'e']                        ['y', 'el']               ['dicho', 'punto']
+43                   ['e', 'iba']                    ['el', 'solim']                   ['punto', 'o']
+44                  ['iba', 'de']                     ['solim', 'n']                  ['o', 'puntos']
+45                 ['de', 'mala']                       ['n', 'del']                 ['puntos', 'de']
+46               ['mala', 'gana']                  ['del', 'afeite']                  ['de', 'vista']
+47              ['gana', 'todas']                  ['afeite', 'con']                ['vista', 'para']
+48               ['todas', 'las']                     ['con', 'que']           ['para', 'argumentar']
+49              ['las', 'calles']                      ['que', 'se']            ['argumentar', 'una']
+50              ['calles', 'que']               ['se', 'blanqueaba']                  ['una', 'idea']
+51          ['que', 'desembocan']              ['blanqueaba', 'por']                   ['idea', 'se']
+52        ['desembocan', 'cerca']                 ['por', 'simular']               ['se', 'requiere']
+53                ['cerca', 'de']            ['simular', 'melancol']               ['requiere', 'de']
+54                   ['de', 'la']                 ['melancol', 'as']              ['de', 'exponerla']
+55              ['la', 'escuela']                  ['as', 'gastaba']          ['exponerla', 'quiere']
+56    ['escuela', 'hormigueaban']                 ['gastaba', 'dos']              ['quiere', 'decir']
+57         ['hormigueaban', 'de']                 ['dos', 'parches']                ['decir', 'esto']
+58            ['de', 'muchachos']             ['parches', 'oscuros']                  ['esto', 'que']
+59           ['muchachos', 'las']           ['oscuros', 'adheridos']                    ['que', 'el']
+60                 ['las', 'dos']                 ['adheridos', 'a']                  ['el', 'texto']
+61              ['dos', 'librer']                       ['a', 'las']       ['texto', 'argumentativo']
+62               ['librer', 'as']                  ['las', 'sienes']     ['argumentativo', 'combina']
+63                   ['as', 'pr']                    ['sienes', 'y']             ['combina', 'tanto']
+64                ['pr', 'ximas']                       ['y', 'que']                  ['tanto', 'la']
+65           ['ximas', 'estaban']                    ['que', 'fing']               ['la', 'exposici']
+66          ['estaban', 'llenas']                     ['fing', 'an']                ['exposici', 'n']
+67               ['llenas', 'de']             ['an', 'medicamentos']                    ['n', 'como']
+68               ['de', 'padres']            ['medicamentos', 'ten']                   ['como', 'la']
+69                ['padres', 'y']                       ['ten', 'a']            ['la', 'argumentaci']
+70                ['y', 'madres']                       ['a', 'los']             ['argumentaci', 'n']
+71              ['madres', 'que']                  ['los', 'ojitos']                     ['n', 'los']
+72              ['que', 'adquir']            ['ojitos', 'ratoniles']                ['los', 'textos']
+73               ['adquir', 'an']        ['ratoniles', 'maliciosos']     ['textos', 'argumentativos']
+74             ['an', 'carteras']            ['maliciosos', 'sabia']   ['argumentativos', 'aparecen']
+75      ['carteras', 'cuadernos']            ['sabia', 'dilatarlos']               ['aparecen', 'en']
+76     ['cuadernos', 'cartillas']        ['dilatarlos', 'duramente']                    ['en', 'una']
+77        ['cartillas', 'plumas']                 ['duramente', 'o']              ['una', 'variedad']
+78                ['plumas', 'l']               ['o', 'desmayarlos']               ['variedad', 'de']
+79                 ['l', 'pices']             ['desmayarlos', 'con']            ['de', 'disciplinas']
+80                ['pices', 'en']                  ['con', 'recato']         ['disciplinas', 'desde']
+81                   ['en', 'la']                    ['recato', 'o']                 ['desde', 'art']
+82               ['la', 'puerta']               ['o', 'levantarlos']                 ['art', 'culos']
+83            ['puerta', 'misma']             ['levantarlos', 'con']               ['culos', 'cient']
+84                ['misma', 'se']                ['con', 'disimulo']               ['cient', 'ficos']
+85                  ['se', 'api']           ['disimulo', 'caminaba']                 ['ficos', 'que']
+86                 ['api', 'aba']        ['caminaba', 'contoneando']              ['que', 'muestran']
+87               ['aba', 'tanta']             ['contoneando', 'las']              ['muestran', 'una']
+88             ['tanta', 'gente']              ['las', 'imposibles']                 ['una', 'tesis']
+89               ['gente', 'que']          ['imposibles', 'caderas']                   ['tesis', 'y']
+90                  ['que', 'el']                   ['caderas', 'y']                 ['y', 'refutan']
+91                ['el', 'bedel']                       ['y', 'era']             ['refutan', 'otras']
+92         ['bedel', 'auxiliado']                     ['era', 'dif']               ['otras', 'hasta']
+93           ['auxiliado', 'por']                     ['dif', 'cil']           ['hasta', 'discursos']
+94                 ['por', 'los']                      ['cil', 'al']             ['discursos', 'pol']
+95            ['los', 'guardias']                    ['al', 'verla']                 ['pol', 'ticos']
+96    ['guardias', 'municipales']                    ['verla', 'no']                 ['ticos', 'que']
+97        ['municipales', 'tuvo']                  ['no', 'asociar']                ['que', 'buscan']
+98                ['tuvo', 'que']                  ['asociar', 'su']          ['buscan', 'persuadir']
+99               ['que', 'poner']                  ['su', 'estampa']               ['persuadir', 'a']
+100            ['poner', 'orden']         ['estampa', 'achaparrada']                     ['a', 'los']
+101               ['orden', 'al']             ['achaparrada', 'con']              ['los', 'escuchas']
+102              ['al', 'llegar']                      ['con', 'la']                ['escuchas', 'a']
+103               ['llegar', 'a']                       ['la', 'de']              ['a', 'continuaci']
+104                   ['a', 'la']                  ['de', 'ciertos']              ['continuaci', 'n']
+105              ['la', 'puerta']                ['ciertos', 'palm']                      ['n', 'se']
+106            ['puerta', 'sent']                  ['palm', 'pedos']              ['se', 'presentan']
+107                ['sent', 'un']                   ['pedos', 'dom']             ['presentan', 'una']
+108           ['un', 'golpecito']                  ['dom', 'sticos']                 ['una', 'serie']
+109           ['golpecito', 'en']             ['sticos', 'sortijas']                  ['serie', 'de']
+110                  ['en', 'el']           ['sortijas', 'celestes']               ['de', 'ejemplos']
+111              ['el', 'hombro']                  ['celestes', 'y']               ['ejemplos', 'de']
+112            ['hombro', 'volv']                    ['y', 'azules']                   ['de', 'este']
+113                ['volv', 'la']                   ['azules', 'le']                 ['este', 'tipo']
+114                ['la', 'cara']                ['le', 'ahorcaban']                   ['tipo', 'de']
+115                 ['cara', 'y']               ['ahorcaban', 'las']                  ['de', 'texto']
+116                  ['y', 'era']                ['las', 'falanges']                 ['texto', 'con']
+117                 ['era', 'mi']             ['falanges', 'manuel']                   ['con', 'una']
+118             ['mi', 'antiguo']               ['manuel', 'mujica']                 ['una', 'breve']
+119        ['antiguo', 'maestro']                   ['mujica', 'la']          ['breve', 'introducci']
+120             ['maestro', 'de']                      ['la', 'nez']              ['introducci', 'n']
+121                  ['de', 'la']                     ['nez', 'don']             ['n', 'explicativa']
+122             ['la', 'segunda']                   ['don', 'galaz']            ['explicativa', 'la']
+123         ['segunda', 'jovial']                    ['galaz', 'de']               ['la', 'diabetes']
+124            ['jovial', 'simp']                   ['de', 'buenos']                ['diabetes', 'y']
+125              ['simp', 'tico']                ['buenos', 'aires']                      ['y', 'la']
+126               ['tico', 'con']                    ['aires', 'el']            ['la', 'importancia']
+127                 ['con', 'su']                    ['el', 'texto']            ['importancia', 'de']
+128             ['su', 'cabello']           ['texto', 'descriptivo']                    ['de', 'una']
+129          ['cabello', 'rubio']              ['descriptivo', 'en']                 ['una', 'dieta']
+130           ['rubio', 'rizoso']                     ['en', 'este']           ['dieta', 'saludable']
+131               ['rizoso', 'y']                   ['este', 'caso']              ['saludable', 'el']
+132           ['y', 'encrespado']                     ['caso', 'un']              ['el', 'siguiente']
+133         ['encrespado', 'que']                  ['un', 'retrato']           ['siguiente', 'texto']
+134                 ['que', 'me']                  ['retrato', 'de']               ['texto', 'aboga']
+135                ['me', 'dijo']                      ['de', 'una']                 ['aboga', 'por']
+136            ['dijo', 'conque']                 ['una', 'persona']                   ['por', 'una']
+137             ['conque', 'nos']             ['persona', 'provoca']                 ['una', 'dieta']
+138          ['nos', 'separamos']                  ['provoca', 'en']                ['dieta', 'sana']
+139         ['separamos', 'para']                       ['en', 'el']                 ['sana', 'para']
+140           ['para', 'siempre']                 ['el', 'receptor']                  ['para', 'los']
+141        ['siempre', 'enrique']                ['receptor', 'una']             ['los', 'pacientes']
+142             ['enrique', 'de']                  ['una', 'imagen']            ['pacientes', 'diab']
+143               ['de', 'sobra']                  ['imagen', 'tal']                ['diab', 'ticos']
+144               ['sobra', 'lo']                     ['tal', 'que']                 ['ticos', 'por']
+145                 ['lo', 'sab']                      ['que', 'la']                    ['por', 'un']
+146                  ['sab', 'a']                 ['la', 'realidad']                   ['un', 'lado']
+147                   ['a', 'yo']          ['realidad', 'descripta']               ['lado', 'expone']
+148                   ['yo', 'y']             ['descripta', 'cobra']                  ['expone', 'a']
+149                  ['y', 'sin']                 ['cobra', 'forma']                  ['a', 'manera']
+150            ['sin', 'embargo']                    ['forma', 'se']         ['manera', 'preventiva']
+151       ['embargo', 'aquellas']              ['se', 'materializa']            ['preventiva', 'las']
+152      ['aquellas', 'palabras']              ['materializa', 'en']              ['las', 'ventajas']
+153            ['palabras', 'me']                       ['en', 'su']               ['ventajas', 'de']
+154            ['me', 'hicieron']                    ['su', 'mente']                   ['de', 'esta']
+155            ['hicieron', 'da']                    ['mente', 'en']                 ['esta', 'para']
+156                   ['da', 'o']                     ['en', 'este']              ['para', 'quienes']
+157             ['o', 'entramos']                   ['este', 'caso']               ['quienes', 'est']
+158           ['entramos', 'por']                     ['caso', 'el']                     ['est', 'n']
+159                ['por', 'fin']                    ['el', 'texto']                      ['n', 'en']
+160                  ['fin', 'a']                 ['texto', 'habla']                 ['en', 'riesgo']
+161           ['a', 'empellones']                    ['habla', 'de']                  ['riesgo', 'y']
+162          ['empellones', 'se']                       ['de', 'un']                     ['y', 'por']
+163                ['se', 'oras']                ['un', 'personaje']                  ['por', 'otro']
+164        ['oras', 'caballeros']              ['personaje', 'real']            ['otro', 'argumenta']
+165     ['caballeros', 'mujeres']                     ['real', 'do']             ['argumenta', 'que']
+166            ['mujeres', 'del']                        ['do', 'a']               ['que', 'quienes']
+167             ['del', 'pueblo']                    ['a', 'aseada']                ['quienes', 'la']
+168         ['pueblo', 'obreros']                   ['aseada', 'de']                ['la', 'padecen']
+169      ['obreros', 'oficiales']                   ['de', 'ribera']                 ['padecen', 'y']
+170      ['oficiales', 'abuelas']            ['ribera', 'maldonado']                ['y', 'dependen']
+171        ['abuelas', 'criadas']                ['maldonado', 'de']               ['dependen', 'de']
+172          ['criadas', 'todos']               ['de', 'bracamonte']               ['de', 'insulina']
+173              ['todos', 'con']                ['bracamonte', 'y']       ['insulina', 'encuentran']
+174                 ['con', 'ni']                     ['y', 'anaya']             ['encuentran', 'un']
+175                  ['ni', 'os']                  ['anaya', 'como']                 ['un', 'aliado']
+176                  ['os', 'de']                     ['como', 'se']          ['aliado', 'adicional']
+177                  ['de', 'la']                    ['se', 'trata']              ['adicional', 'en']
+178                ['la', 'mano']                    ['trata', 'de']                     ['en', 'lo']
+179                 ['mano', 'y']                      ['de', 'una']                    ['lo', 'que']
+180             ['y', 'cargados']               ['una', 'descripci']                 ['que', 'ponen']
+181           ['cargados', 'con']                 ['descripci', 'n']                  ['ponen', 'en']
+182                ['con', 'los']                 ['n', 'literaria']                     ['en', 'su']
+183             ['los', 'libros']                ['literaria', 'la']                  ['su', 'plato']
+184               ['libros', 'y']                  ['la', 'actitud']          ['plato', 'argumentos']
+185              ['y', 'objetos']                 ['actitud', 'del']              ['argumentos', 'a']
+186          ['objetos', 'antes']                  ['del', 'emisor']                   ['a', 'favor']
+187      ['antes', 'mencionados']                   ['emisor', 'es']                  ['favor', 'de']
+188   ['mencionados', 'llenaban']                ['es', 'subjetiva']                    ['de', 'una']
+189            ['llenaban', 'el']              ['subjetiva', 'dado']                 ['una', 'dieta']
+190                ['el', 'vest']                    ['dado', 'que']                ['dieta', 'baja']
+191              ['vest', 'bulo']                ['que', 'pretende']                   ['baja', 'en']
+192                 ['bulo', 'y']         ['pretende', 'transmitir']                     ['en', 'az']
+193                  ['y', 'las']               ['transmitir', 'su']                    ['az', 'car']
+194          ['las', 'escaleras']                   ['su', 'propia']                     ['car', 'y']
+195  ['escaleras', 'produciendo']                 ['propia', 'visi']                  ['y', 'comida']
+196         ['produciendo', 'un']                      ['visi', 'n']          ['comida', 'procesada']
+197               ['un', 'rumor']                  ['n', 'personal']              ['procesada', 'en']
+198             ['rumor', 'como']                 ['personal', 'al']                     ['en', 'un']
+199                ['como', 'el']                ['al', 'describir']                    ['un', 'art']
+200                  ['el', 'de']                 ['describir', 'y']                  ['art', 'culo']
+201                  ['de', 'la']                        ['y', 'la']               ['culo', 'period']
+202              ['la', 'salida']                    ['la', 'funci']              ['period', 'stico']
+203             ['salida', 'del']                     ['funci', 'n']                 ['stico', 'ser']
+204             ['del', 'teatro']                       ['n', 'del']                     ['ser', 'a']
+205            ['teatro', 'volv']                ['del', 'lenguaje']               ['a', 'imposible']
+206                 ['volv', 'a']                 ['lenguaje', 'es']        ['imposible', 'desligar']
+207                  ['a', 'ver']        ['es', 'predominantemente']              ['desligar', 'las']
+208                ['ver', 'con']        ['predominantemente', 'po']              ['las', 'palabras']
+209              ['con', 'alegr']                     ['po', 'tica']       ['palabras', 'alimentaci']
+210                ['alegr', 'a']                     ['tica', 'ya']              ['alimentaci', 'n']
+211                ['a', 'aquel']                      ['ya', 'que']                       ['n', 'y']
+212             ['aquel', 'gran']                ['que', 'persigue']                ['y', 'diabetes']
+213              ['gran', 'zagu']                ['persigue', 'una']           ['diabetes', 'porque']
+214                 ['zagu', 'n']                     ['una', 'est']                ['porque', 'por']
+215                  ['n', 'del']                    ['est', 'tica']                    ['por', 'un']
+216               ['del', 'piso']                     ['tica', 'en']                   ['un', 'lado']
+217              ['piso', 'bajo']               ['en', 'particular']                  ['lado', 'una']
+218               ['bajo', 'con']          ['particular', 'ejemplo']                  ['una', 'mala']
+219                ['con', 'las']                  ['ejemplo', 'de']                ['mala', 'dieta']
+220              ['las', 'siete']                    ['de', 'texto']                  ['dieta', 'es']
+221          ['siete', 'puertas']           ['texto', 'descriptivo']                   ['es', 'quiz']
+222             ['puertas', 'de']              ['descriptivo', 'no']                   ['quiz', 'la']
+223                 ['de', 'las']                ['no', 'literario']              ['la', 'principal']
+224              ['las', 'siete']                ['literario', 'el']           ['principal', 'causa']
+225           ['siete', 'clases']                    ['el', 'oeste']                  ['causa', 'de']
+226             ['clases', 'por']                    ['oeste', 'de']                   ['de', 'esta']
+227                 ['por', 'el']                    ['de', 'texas']           ['esta', 'enfermedad']
+228                ['el', 'cual']                ['texas', 'divide']              ['enfermedad', 'y']
+229                ['cual', 'yo']                   ['divide', 'la']                     ['y', 'por']
+230                 ['yo', 'hab']                 ['la', 'frontera']                  ['por', 'otro']
+231                  ['hab', 'a']              ['frontera', 'entre']          ['otro', 'alimentarse']
+232               ['a', 'pasado']                     ['entre', 'm']            ['alimentarse', 'de']
+233            ['pasado', 'casi']                      ['m', 'xico']                 ['de', 'manera']
+234                 ['casi', 'a']                      ['xico', 'y']          ['manera', 'saludable']
+235               ['a', 'diario']                     ['y', 'nuevo']           ['saludable', 'puede']
+236         ['diario', 'durante']                     ['nuevo', 'm']          ['puede', 'contribuir']
+237           ['durante', 'tres']                      ['m', 'xico']    ['contribuir', 'enormemente']
+238                 ['tres', 'a']                     ['xico', 'es']             ['enormemente', 'a']
+239                   ['a', 'os']                      ['es', 'muy']                      ['a', 'la']
+240                 ['os', 'las']                   ['muy', 'bella']                  ['la', 'mejor']
+241           ['las', 'maestras']                  ['bella', 'pero']                   ['mejor', 'a']
+242            ['maestras', 'de']                  ['pero', 'spera']                       ['a', 'y']
+243                 ['de', 'los']                 ['spera', 'llena']             ['y', 'tratamiento']
+244                  ['los', 'p']                    ['llena', 'de']            ['tratamiento', 'de']
+245               ['p', 'rvulos']                   ['de', 'cactus']                    ['de', 'los']
+246            ['rvulos', 'iban']                   ['cactus', 'en']             ['los', 'pacientes']
+247                 ['iban', 'y']                     ['en', 'esta']            ['pacientes', 'diab']
+248                  ['y', 'ven']                   ['esta', 'regi']                ['diab', 'ticos']
+249                 ['ven', 'an']                      ['regi', 'n']                  ['ticos', 'la']
+250               ['an', 'entre']                        ['n', 'se']                  ['la', 'clave']
+251               ['entre', 'el']               ['se', 'encuentran']                 ['clave', 'est']
+252                ['el', 'gent']              ['encuentran', 'las']                    ['est', 'en']
+253                 ['gent', 'o']                   ['las', 'davis']                  ['en', 'comer']
+254                   ['o', 'la']                  ['davis', 'mont']                ['comer', 'bien']
+255                 ['la', 'que']                     ['mont', 'is']                 ['bien', 'pero']
+256                ['que', 'hab']                     ['is', 'todo']                    ['pero', 'c']
+257                  ['hab', 'a']                     ['todo', 'el']                      ['c', 'mo']
+258                 ['a', 'sido']                  ['el', 'terreno']                     ['mo', 'se']
+259                ['sido', 'mi']                 ['terreno', 'est']                  ['se', 'logra']
+260           ['mi', 'profesora']                   ['est', 'lleno']                  ['logra', 'la']
+261           ['profesora', 'de']                    ['lleno', 'de']          ['la', 'nutricionista']
+262                  ['de', 'la']                   ['de', 'piedra']           ['nutricionista', 'y']
+263             ['la', 'primera']               ['piedra', 'caliza']                ['y', 'dietista']
+264       ['primera', 'superior']             ['caliza', 'torcidos']           ['dietista', 'sandra']
+265            ['superior', 'me']            ['torcidos', 'arboles']                  ['sandra', 'p']
+266               ['me', 'salud']                  ['arboles', 'de']                     ['p', 'rez']
+267         ['salud', 'diciendo']                 ['de', 'mezquite']               ['rez', 'explica']
+268       ['diciendo', 'enrique']                  ['mezquite', 'y']               ['explica', 'que']
+269              ['enrique', 't']                 ['y', 'espinosos']                    ['que', 'lo']
+270                  ['t', 'vas']           ['espinosos', 'nopales']                ['lo', 'primero']
+271               ['vas', 'este']                ['nopales', 'para']                ['primero', 'es']
+272                 ['este', 'a']                ['para', 'admirar']             ['es', 'determinar']
+273                    ['a', 'o']                  ['admirar', 'la']             ['determinar', 'si']
+274                   ['o', 'al']                ['la', 'verdadera']                     ['si', 'la']
+275                ['al', 'piso']           ['verdadera', 'belleza']               ['la', 'diabetes']
+276         ['piso', 'principal']                 ['belleza', 'des']              ['diabetes', 'est']
+277            ['principal', 'y']                   ['des', 'rtica']            ['est', 'controlada']
+278                   ['y', 'ni']                ['rtica', 'visite']              ['controlada', 'y']
+279            ['ni', 'siquiera']                   ['visite', 'el']                      ['y', 'si']
+280            ['siquiera', 'te']                   ['el', 'parque']                     ['si', 'el']
+281                 ['te', 'ver']             ['parque', 'nacional']               ['el', 'paciente']
+282                 ['ver', 'al']                 ['nacional', 'de']              ['paciente', 'est']
+283              ['al', 'entrar']                      ['de', 'big']             ['est', 'siguiendo']
+284               ['entrar', 'o']                    ['big', 'bend']             ['siguiendo', 'con']
+285                ['o', 'salir']                  ['bend', 'cerca']            ['con', 'disciplina']
+286                ['salir', 'y']                    ['cerca', 'de']             ['disciplina', 'el']
+287                   ['y', 'me']              ['de', 'brownsville']            ['el', 'tratamiento']
+288                 ['me', 'mir']              ['brownsville', 'es']          ['tratamiento', 'adem']
+289            ['mir', 'apenada']                       ['es', 'el']                    ['adem', 's']
+290             ['apenada', 'el']                    ['el', 'lugar']                      ['s', 'de']
+291            ['el', 'director']              ['lugar', 'favorito']                     ['de', 'si']
+292        ['director', 'estaba']               ['favorito', 'para']                     ['si', 'es']
+293         ['estaba', 'rodeado']                    ['para', 'los']    ['es', 'insulinodependiente']
+294             ['rodeado', 'de']          ['los', 'excursionistas']     ['insulinodependiente', 'o']
+295              ['de', 'madres']  ['excursionistas', 'acampadores']                      ['o', 'no']
+296             ['madres', 'que']               ['acampadores', 'y']                 ['no', 'porque']
+297                 ['que', 'le']               ['y', 'entusiastas']                 ['porque', 'de']
+298            ['le', 'hablaban']              ['entusiastas', 'de']                    ['de', 'eso']
+299             ['hablaban', 'a']                      ['de', 'las']               ['eso', 'depende']
+300                   ['a', 'la']                   ['las', 'rocas']                ['depende', 'la']
+301                 ['la', 'vez']                 ['rocas', 'peque']                  ['la', 'dieta']
+302           ['vez', 'pidiendo']                    ['peque', 'os']                   ['dieta', 'y']
+303        ['pidiendo', 'puesto']                  ['os', 'pueblos']                  ['y', 'agrega']
+304            ['puesto', 'para']                   ['pueblos', 'y']                ['agrega', 'que']
+305               ['para', 'sus']                   ['y', 'ranchos']                    ['que', 'lo']
+306              ['sus', 'hijos']                  ['ranchos', 'se']                  ['lo', 'ideal']
+307                ['hijos', 'y']               ['se', 'encuentran']                  ['ideal', 'es']
+308                  ['y', 'por']                ['encuentran', 'a']                ['es', 'incluir']
+309             ['por', 'cierto']                        ['a', 'lo']           ['incluir', 'siempre']
+310             ['cierto', 'que']                    ['lo', 'largo']     ['siempre', 'carbohidratos']
+311                 ['que', 'me']                    ['largo', 'de']           ['carbohidratos', 'o']
+312              ['me', 'pareci']                      ['de', 'las']                ['o', 'cereales']
+313             ['pareci', 'que']               ['las', 'planicies']       ['cereales', 'integrales']
+314                ['que', 'ten']                 ['planicies', 'y']         ['integrales', 'evitar']
+315                  ['ten', 'a']                        ['y', 'ca']                ['evitar', 'las']
+316                    ['a', 'm']                     ['ca', 'ones']               ['las', 'harinas']
+317                    ['m', 's']                     ['ones', 'de']           ['harinas', 'blancas']
+318                ['s', 'canas']                     ['de', 'esta']                 ['blancas', 'y']
+319              ['canas', 'que']                   ['esta', 'regi']                      ['y', 'en']
+320                 ['que', 'el']                      ['regi', 'n']                  ['en', 'todos']
+321                   ['el', 'a']                        ['n', 'el']                 ['todos', 'los']
+322                    ['a', 'o']                      ['el', 'rea']               ['los', 'tiempos']
+323             ['o', 'anterior']                    ['rea', 'solo']                ['tiempos', 'de']
+324       ['anterior', 'encontr']                  ['solo', 'tiene']                 ['de', 'comida']
+325        ['encontr', 'algunos']                   ['tiene', 'dos']            ['comida', 'incluir']
+326         ['algunos', 'chicos']              ['dos', 'estaciones']             ['incluir', 'prote']
+327               ['chicos', 'm']            ['estaciones', 'tibia']                 ['prote', 'nas']
+328                    ['m', 's']                     ['tibia', 'y']                     ['nas', 'y']
+329               ['s', 'gordos']                 ['y', 'realmente']               ['y', 'vegetales']
+330               ['gordos', 'y']          ['realmente', 'caliente']             ['vegetales', 'por']
+331                    ['y', 'm']                 ['caliente', 'la']                    ['por', 'su']
+332                    ['m', 's']                    ['la', 'mejor']                  ['su', 'parte']
+333                ['s', 'altos']                  ['mejor', 'poca']                 ['parte', 'los']
+334              ['altos', 'que']                   ['poca', 'para']             ['los', 'pacientes']
+335             ['que', 'cuando']              ['para', 'visitarla']            ['pacientes', 'diab']
+336             ['cuando', 'los']                ['visitarla', 'es']                ['diab', 'ticos']
+337                ['los', 'dej']                       ['es', 'de']               ['ticos', 'deben']
+338              ['dej', 'abajo']                ['de', 'diciembre']              ['deben', 'evitar']
+339            ['abajo', 'donde']                 ['diciembre', 'a']                ['evitar', 'del']
+340               ['donde', 'ya']                     ['a', 'marzo']                  ['del', 'todo']
+341                ['ya', 'cada']                ['marzo', 'cuando']                  ['todo', 'los']
+342              ['cada', 'cual']                  ['cuando', 'los']                    ['los', 'az']
+343            ['cual', 'estaba']                       ['los', 'd']                  ['az', 'cares']
+344              ['estaba', 'en']                        ['d', 'as']           ['cares', 'refinados']
+345                  ['en', 'su']                      ['as', 'son']              ['refinados', 'la']
+346               ['su', 'sitio']                  ['son', 'tibios']                 ['la', 'comida']
+347               ['sitio', 'vi']                  ['tibios', 'las']           ['comida', 'chatarra']
+348             ['vi', 'algunos']                  ['las', 'noches']            ['chatarra', 'todas']
+349          ['algunos', 'peque']                  ['noches', 'son']                 ['todas', 'las']
+350             ['peque', 'ines']                 ['son', 'frescas']               ['las', 'bebidas']
+351           ['ines', 'resisti']                   ['frescas', 'y']        ['bebidas', 'azucaradas']
+352          ['resisti', 'ndose']                  ['y', 'florecen']   ['azucaradas', 'carbonatadas']
+353                ['ndose', 'a']                ['florecen', 'las']          ['carbonatadas', 'las']
+354               ['a', 'entrar']                 ['las', 'plantas']              ['las', 'gaseosas']
+355              ['entrar', 'en']                 ['plantas', 'del']                ['gaseosas', 'y']
+356                  ['en', 'el']                ['del', 'desierto']                     ['y', 'los']
+357                ['el', 'aula']                ['desierto', 'con']             ['los', 'refrescos']
+358                 ['aula', 'y']                      ['con', 'la']              ['refrescos', 'en']
+359                  ['y', 'que']                  ['la', 'humedad']                 ['en', 'cambio']
+360                 ['que', 'se']                  ['humedad', 'en']              ['cambio', 'deben']
+361              ['se', 'defend']                       ['en', 'el']            ['deben', 'procurar']
+362              ['defend', 'an']                     ['el', 'aire']               ['procurar', 'no']
+363                ['an', 'como']                ['aire', 'ejemplo']                  ['no', 'dejar']
+364         ['como', 'potrillos']                  ['ejemplo', 'de']                 ['dejar', 'por']
+365     ['potrillos', 'encabrit']                    ['de', 'texto']                 ['por', 'fuera']
+366         ['encabrit', 'ndose']             ['texto', 'narrativo']                  ['fuera', 'de']
+367             ['ndose', 'pero']                ['narrativo', 'un']                     ['de', 'la']
+368                 ['pero', 'a']                    ['un', 'tigre']                ['la', 'alacena']
+369                   ['a', 'la']                   ['tigre', 'que']             ['alacena', 'prote']
+370              ['la', 'fuerza']                  ['que', 'cuando']                 ['prote', 'nas']
+371             ['fuerza', 'los']             ['cuando', 'cachorro']             ['nas', 'vegetales']
+372           ['los', 'introduc']                ['cachorro', 'hab']   ['vegetales', 'carbohidratos']
+373            ['introduc', 'an']                       ['hab', 'a']        ['carbohidratos', 'como']
+374                 ['an', 'aun']                      ['a', 'sido']                  ['como', 'los']
+375                 ['aun', 'as']              ['sido', 'capturado']              ['los', 'cereales']
+376             ['as', 'algunos']               ['capturado', 'por']       ['cereales', 'integrales']
+377             ['algunos', 'se']                 ['por', 'humanos']              ['integrales', 'y']
+378           ['se', 'escapaban']                 ['humanos', 'fue']                   ['y', 'mucha']
+379           ['escapaban', 'ya']                ['fue', 'liberado']                ['mucha', 'agua']
+380                 ['ya', 'una']              ['liberado', 'luego']               ['agua', 'afirma']
+381                ['una', 'vez']                    ['luego', 'de']                  ['afirma', 'p']
+382           ['vez', 'sentados']                   ['de', 'varios']                     ['p', 'rez']
+383            ['sentados', 'en']                    ['varios', 'a']                ['rez', 'cuando']
+384                 ['en', 'los']                        ['a', 'os']            ['cuando', 'aparece']
+385             ['los', 'bancos']                       ['os', 'de']                ['aparece', 'la']
+386               ['bancos', 'y']                     ['de', 'vida']               ['la', 'diabetes']
+387                ['y', 'otros']                    ['vida', 'dom']               ['diabetes', 'el']
+388               ['otros', 'al']                   ['dom', 'stica']              ['el', 'organismo']
+389                 ['al', 'ver']                    ['stica', 'la']              ['organismo', 'no']
+390                ['ver', 'que']                     ['la', 'vida']                  ['no', 'puede']
+391                 ['que', 'se']                  ['vida', 'entre']            ['puede', 'procesar']
+392           ['se', 'marchaban']                   ['entre', 'los']               ['procesar', 'de']
+393          ['marchaban', 'sus']                 ['los', 'hombres']                 ['de', 'manera']
+394             ['sus', 'padres']                  ['hombres', 'no']           ['manera', 'adecuada']
+395            ['padres', 'romp']                      ['no', 'hab']               ['adecuada', 'la']
+396                ['romp', 'an']                       ['hab', 'a']                ['la', 'glucosa']
+397                   ['an', 'a']                  ['a', 'menguado']                 ['glucosa', 'o']
+398               ['a', 'llorar']                ['menguado', 'sus']                      ['o', 'el']
+399               ['llorar', 'y']                 ['sus', 'fuerzas']                     ['el', 'az']
+400                  ['y', 'era']                  ['fuerzas', 'ni']                    ['az', 'car']
+401            ['era', 'preciso']                      ['ni', 'sus']                 ['car', 'buena']
+402            ['preciso', 'que']               ['sus', 'instintos']                 ['buena', 'que']
+403          ['que', 'volvieran']                ['instintos', 'en']              ['que', 'necesita']
+404          ['volvieran', 'las']                   ['en', 'cuanto']               ['necesita', 'el']
+405                ['las', 'mam']                   ['cuanto', 'lo']                 ['el', 'cuerpo']
+406                  ['mam', 's']                ['lo', 'liberaron']               ['cuerpo', 'para']
+407                  ['s', 'con']             ['liberaron', 'corri']                ['para', 'tener']
+408               ['con', 'todo']                     ['corri', 'a']               ['tener', 'energ']
+409                ['todo', 'lo']                        ['a', 'la']                   ['energ', 'a']
+410                ['lo', 'cual']                    ['la', 'selva']                    ['a', 'esto']
+411                ['cual', 'la']                    ['selva', 'ya']               ['esto', 'sucede']
+412           ['la', 'profesora']                       ['ya', 'en']             ['sucede', 'porque']
+413           ['profesora', 'se']                       ['en', 'la']                 ['porque', 'el']
+414         ['se', 'desesperaba']                 ['la', 'espesura']                      ['el', 'p']
+415         ['desesperaba', 'mi']                ['espesura', 'sus']                  ['p', 'ncreas']
+416           ['mi', 'hermanito']                ['sus', 'hermanos']                 ['ncreas', 'se']
+417           ['hermanito', 'se']               ['hermanos', 'teni']                     ['se', 'da']
+418                ['se', 'qued']                  ['teni', 'ndolo']                      ['da', 'a']
+419                ['qued', 'en']                  ['ndolo', 'otra']                       ['a', 'y']
+420                  ['en', 'la']                    ['otra', 'vez']                    ['y', 'deja']
+421               ['la', 'clase']                   ['vez', 'entre']                   ['deja', 'de']
+422               ['clase', 'de']                 ['entre', 'ellos']               ['de', 'producir']
+423                  ['de', 'la']                    ['ellos', 'le']                ['producir', 'o']
+424             ['la', 'maestra']              ['le', 'preguntaron']               ['o', 'disminuye']
+425       ['maestra', 'delcatti']             ['preguntaron', 'que']              ['disminuye', 'la']
+426             ['delcatti', 'a']                     ['que', 'has']               ['la', 'producci']
+427                    ['a', 'm']               ['has', 'aprendido']                ['producci', 'n']
+428                   ['m', 'me']                ['aprendido', 'el']                      ['n', 'de']
+429                 ['me', 'toc']                    ['el', 'tigre']               ['de', 'insulina']
+430                 ['toc', 'el']                ['tigre', 'medito']               ['insulina', 'la']
+431             ['el', 'maestro']                  ['medito', 'sin']                ['la', 'hormona']
+432        ['maestro', 'perboni']                   ['sin', 'prisa']               ['hormona', 'que']
+433             ['perboni', 'en']                  ['prisa', 'quer']               ['que', 'permite']
+434                  ['en', 'el']                      ['quer', 'a']                ['permite', 'el']
+435                ['el', 'piso']             ['a', 'transmitirles']                   ['el', 'buen']
+436           ['piso', 'primero']           ['transmitirles', 'alg']                  ['buen', 'uso']
+437              ['primero', 'a']                       ['alg', 'n']                    ['uso', 'de']
+438                  ['a', 'las']                  ['n', 'concepto']                     ['de', 'la']
+439               ['las', 'diez']              ['concepto', 'sabio']                ['la', 'glucosa']
+440              ['diez', 'cada']          ['sabio', 'trascendente']                 ['glucosa', 'y']
+441              ['cada', 'cual']         ['trascendente', 'record']                ['y', 'entonces']
+442            ['cual', 'estaba']                   ['record', 'un']               ['entonces', 'el']
+443              ['estaba', 'en']               ['un', 'comentario']                  ['el', 'nivel']
+444                  ['en', 'su']           ['comentario', 'humano']                  ['nivel', 'de']
+445               ['su', 'secci']                  ['humano', 'los']                     ['de', 'az']
+446                ['secci', 'n']                  ['los', 'tigres']                    ['az', 'car']
+447            ['n', 'cincuenta']                   ['tigres', 'no']                    ['car', 'en']
+448            ['cincuenta', 'y']                      ['no', 'son']                     ['en', 'la']
+449               ['y', 'cuatro']              ['son', 'inmortales']                 ['la', 'sangre']
+450              ['cuatro', 'en']            ['inmortales', 'creen']                 ['sangre', 'se']
+451                  ['en', 'la']                   ['creen', 'que']                  ['se', 'eleva']
+452                   ['la', 'm']                     ['que', 'son']                ['eleva', 'este']
+453                    ['m', 'a']              ['son', 'inmortales']                 ['este', 'tema']
+454                    ['a', 's']           ['inmortales', 'porque']                   ['tema', 'es']
+455                   ['s', 'lo']              ['porque', 'ignoran']          ['es', 'especialmente']
+456              ['lo', 'quince']                  ['ignoran', 'la']     ['especialmente', 'problem']
+457               ['quince', 'o']                   ['la', 'muerte']              ['problem', 'tico']
+458               ['o', 'diecis']              ['muerte', 'ignoran']               ['tico', 'porque']
+459              ['diecis', 'is']                 ['ignoran', 'que']                 ['porque', 'en']
+460                ['is', 'eran']                   ['que', 'morir']                 ['en', 'muchos']
+461          ['eran', 'antiguos']                     ['morir', 'n']              ['muchos', 'casos']
+462       ['antiguos', 'condisc']                        ['n', 'ah']             ['casos', 'resulta']
+463          ['condisc', 'pulos']                     ['ah', 'pens']        ['resulta', 'complicado']
+464                ['pulos', 'm']                     ['pens', 'el']   ['complicado', 'desprenderse']
+465                   ['m', 'os']                    ['el', 'tigre']          ['desprenderse', 'del']
+466                  ['os', 'de']                  ['tigre', 'para']                 ['del', 'sabor']
+467                  ['de', 'la']                    ['para', 'sus']               ['sabor', 'dulce']
+468             ['la', 'segunda']                ['sus', 'adentros']                ['dulce', 'para']
+469          ['segunda', 'entre']                ['adentros', 'ese']                ['para', 'ellos']
+470            ['entre', 'ellos']                      ['ese', 'es']          ['ellos', 'recomienda']
+471           ['ellos', 'derosi']                       ['es', 'un']              ['recomienda', 'p']
+472             ['derosi', 'que']              ['un', 'pensamiento']                     ['p', 'rez']
+473            ['que', 'siempre']             ['pensamiento', 'que']                    ['rez', 'el']
+474         ['siempre', 'sacaba']                     ['que', 'los']                 ['el', 'stevia']
+475              ['sacaba', 'el']              ['los', 'sorprender']                ['stevia', 'que']
+476              ['el', 'primer']               ['sorprender', 'no']                    ['que', 'es']
+477          ['primer', 'premio']                    ['no', 'somos']                    ['es', 'una']
+478              ['premio', 'qu']            ['somos', 'inmortales']                ['una', 'planta']
+479              ['qu', 'triste']               ['inmortales', 'la']                  ['planta', 'y']
+480              ['triste', 'me']                     ['la', 'vida']                      ['y', 'el']
+481              ['me', 'pareci']                     ['vida', 'no']                     ['el', 'az']
+482              ['pareci', 'la']                       ['no', 'es']                    ['az', 'car']
+483             ['la', 'escuela']                   ['es', 'eterna']                     ['car', 'm']
+484     ['escuela', 'recordando']               ['eterna', 'aprend']                       ['m', 's']
+485         ['recordando', 'los']                 ['aprend', 'esto']                 ['s', 'natural']
+486            ['los', 'bosques']                   ['esto', 'dijo']               ['natural', 'que']
+487              ['bosques', 'y']                    ['dijo', 'por']                   ['que', 'hay']
+488                  ['y', 'las']                     ['por', 'fin']                    ['hay', 'en']
+489              ['las', 'monta']                      ['fin', 'no']                     ['en', 'el']
+490               ['monta', 'as']                    ['no', 'somos']                ['el', 'mercado']
+491               ['as', 'donde']            ['somos', 'inmortales']               ['mercado', 'por']
+492          ['donde', 'acababa']             ['inmortales', 'solo']                    ['por', 'su']
+493             ['acababa', 'de']              ['solo', 'ignoramos']                  ['su', 'parte']
+494               ['de', 'pasar']               ['ignoramos', 'que']                  ['parte', 'el']
+495               ['pasar', 'el']                  ['que', 'alguna']                ['el', 'consumo']
+496              ['el', 'verano']                  ['alguna', 'vez']                ['consumo', 'de']
+497              ['verano', 'me']                   ['vez', 'vamos']                 ['de', 'frutas']
+498            ['me', 'acordaba']                     ['vamos', 'a']              ['frutas', 'tambi']
+499         ['acordaba', 'tambi']                               None                   ['tambi', 'n']
+500                ['tambi', 'n']                               None                     ['n', 'est']
+501                ['n', 'ahora']                               None           ['est', 'recomendado']
+502              ['ahora', 'con']                               None          ['recomendado', 'pero']
+503          ['con', 'nostalgia']                               None                   ['pero', 'es']
+504           ['nostalgia', 'de']                               None                  ['es', 'mejor']
+505                  ['de', 'mi']                               None              ['mejor', 'evitar']
+506             ['mi', 'antiguo']                               None            ['evitar', 'algunas']
+507        ['antiguo', 'maestro']                               None               ['algunas', 'muy']
+508            ['maestro', 'tan']                               None                ['muy', 'dulces']
+509              ['tan', 'bueno']                               None               ['dulces', 'como']
+510              ['bueno', 'que']                               None                   ['como', 'el']
+511                 ['que', 'se']                               None                 ['el', 'banano']
+512                  ['se', 're']                               None                ['banano', 'las']
+513                   ['re', 'a']                               None                  ['las', 'uvas']
+514                ['a', 'tanto']                               None                   ['uvas', 'la']
+515              ['tanto', 'con']                               None                     ['la', 'pi']
+516           ['con', 'nosotros']                               None                      ['pi', 'a']
+517           ['nosotros', 'tan']                               None                       ['a', 'y']
+518            ['tan', 'chiquit']                               None                ['y', 'consumir']
+519              ['chiquit', 'n']                               None                ['consumir', 'm']
+520                  ['n', 'que']                               None                       ['m', 's']
+521               ['que', 'casi']                               None                    ['s', 'bien']
+522             ['casi', 'parec']                               None               ['bien', 'frutas']
+523                ['parec', 'a']                               None              ['frutas', 'cidas']
+524                   ['a', 'un']                               None                 ['cidas', 'que']
+525               ['un', 'compa']                               None                ['que', 'tengan']
+526              ['compa', 'ero']                               None               ['tengan', 'bajo']
+527                  ['ero', 'y']                               None                ['bajo', 'ndice']
+528                 ['y', 'sent']                               None                ['ndice', 'glic']
+529                 ['sent', 'a']                               None                 ['glic', 'mico']
+530                   ['a', 'no']                               None               ['mico', 'agrega']
+531               ['no', 'verlo']                               None                 ['agrega', 'la']
+532              ['verlo', 'all']                               None                ['la', 'experta']
+533                ['all', 'con']                               None                             None
+534                 ['con', 'su']                               None                             None
+535               ['su', 'rubio']                               None                             None
+536          ['rubio', 'cabello']                               None                             None
+537         ['cabello', 'enmara']                               None                             None
+538             ['enmara', 'ado']                               None                             None
+539                 ['ado', 'el']                               None                             None
+540            ['el', 'profesor']                               None                             None
+541           ['profesor', 'que']                               None                             None
+542              ['que', 'ahora']                               None                             None
+543              ['ahora', 'nos']                               None                             None
+544               ['nos', 'toca']                               None                             None
+545                ['toca', 'es']                               None                             None
+546                ['es', 'alto']                               None                             None
+547               ['alto', 'sin']                               None                             None
+548              ['sin', 'barba']                               None                             None
+549              ['barba', 'con']                               None                             None
+550                 ['con', 'el']                               None                             None
+551             ['el', 'cabello']                               None                             None
+552           ['cabello', 'gris']                               None                             None
+553                ['gris', 'es']                               None                             None
+554               ['es', 'decir']                               None                             None
+555              ['decir', 'con']                               None                             None
+556            ['con', 'algunas']                               None                             None
+557          ['algunas', 'canas']                               None                             None
+558                ['canas', 'y']                               None                             None
+559                ['y', 'tiene']                               None                             None
+560              ['tiene', 'una']                               None                             None
+561             ['una', 'arruga']                               None                             None
+562           ['arruga', 'recta']                               None                             None
+563              ['recta', 'que']                               None                             None
+564             ['que', 'parece']                               None                             None
+565        ['parece', 'cortarle']                               None                             None
+566            ['cortarle', 'la']                               None                             None
+567              ['la', 'frente']                               None                             None
+568              ['frente', 'su']                               None                             None
+569                 ['su', 'voz']                               None                             None
+570                 ['voz', 'es']                               None                             None
+571               ['es', 'ronca']                               None                             None
+572                ['ronca', 'y']                               None                             None
+573                  ['y', 'nos']                               None                             None
+574               ['nos', 'mira']                               None                             None
+575                 ['mira', 'a']                               None                             None
+576                ['a', 'todos']                               None                             None
+577        ['todos', 'fijamente']                               None                             None
+578          ['fijamente', 'uno']                               None                             None
+579              ['uno', 'despu']                               None                             None
+580                ['despu', 's']                               None                             None
+581                   ['s', 'de']                               None                             None
+582                ['de', 'otro']                               None                             None
+583              ['otro', 'como']                               None                             None
+584                ['como', 'si']                               None                             None
+585            ['si', 'quisiera']                               None                             None
+586          ['quisiera', 'leer']                               None                             None
+587            ['leer', 'dentro']                               None                             None
+588              ['dentro', 'de']                               None                             None
+589            ['de', 'nosotros']                               None                             None
+590            ['nosotros', 'no']                               None                             None
+591                  ['no', 'se']                               None                             None
+592                   ['se', 'r']                               None                             None
+593                    ['r', 'e']                               None                             None
+594                ['e', 'nunca']                               None                             None
+595               ['nunca', 'yo']                               None                             None
+596                 ['yo', 'dec']                               None                             None
+597                  ['dec', 'a']                               None                             None
+598                 ['a', 'para']                               None                             None
+599                 ['para', 'm']                               None                             None
+600                    ['m', 'a']                               None                             None
+601                   ['a', 'he']                               None                             None
+602                 ['he', 'aqu']                               None                             None
+603                 ['aqu', 'el']                               None                             None
+604              ['el', 'primer']                               None                             None
+605               ['primer', 'd']                               None                             None
+606                    ['d', 'a']                               None                             None
+607                ['a', 'nueve']                               None                             None
+608            ['nueve', 'meses']                               None                             None
+609              ['meses', 'por']                               None                             None
+610            ['por', 'delante']                               None                             None
+611             ['delante', 'cu']                               None                             None
+612                ['cu', 'ntos']                               None                             None
+613          ['ntos', 'trabajos']                               None                             None
+614            ['trabajos', 'cu']                               None                             None
+615                ['cu', 'ntos']                               None                             None
+616                ['ntos', 'ex']                               None                             None
+617               ['ex', 'menes']                               None                             None
+618        ['menes', 'mensuales']                               None                             None
+619           ['mensuales', 'cu']                               None                             None
+620                ['cu', 'ntas']                               None                             None
+621           ['ntas', 'fatigas']                               None                             None
+622           ['fatigas', 'sent']                               None                             None
+623                 ['sent', 'a']                               None                             None
+624            ['a', 'verdadera']                               None                             None
+625    ['verdadera', 'necesidad']                               None                             None
+626           ['necesidad', 'de']                               None                             None
+627              ['de', 'volver']                               None                             None
+628              ['volver', 'al']                               None                             None
+629           ['al', 'encuentro']                               None                             None
+630           ['encuentro', 'de']                               None                             None
+631                  ['de', 'mi']                               None                             None
+632               ['mi', 'madre']                               None                             None
+633                ['madre', 'y']                               None                             None
+634                   ['y', 'al']                               None                             None
+635               ['al', 'salir']                               None                             None
+636             ['salir', 'corr']                               None                             None
+637                 ['corr', 'a']                               None                             None
+638              ['a', 'besarle']                               None                             None
+639             ['besarle', 'la']                               None                             None
+640                ['la', 'mano']                               None                             None
+641              ['mano', 'ella']                               None                             None
+642                ['ella', 'me']                               None                             None
+643                ['me', 'dijo']                               None                             None
+644              ['dijo', 'nimo']                               None                             None
+645           ['nimo', 'enrique']                               None                             None
+646   ['enrique', 'estudiaremos']                               None                             None
+647    ['estudiaremos', 'juntos']                               None                             None
+648             ['juntos', 'las']                               None                             None
+649          ['las', 'lecciones']                               None                             None
+650            ['lecciones', 'y']                               None                             None
+651                 ['y', 'volv']                               None                             None
+652                 ['volv', 'a']                               None                             None
+653                 ['a', 'casa']                               None                             None
+654          ['casa', 'contento']                               None                             None
+655          ['contento', 'pero']                               None                             None
+656                ['pero', 'no']                               None                             None
+657               ['no', 'tengo']                               None                             None
+658               ['tengo', 'el']                               None                             None
+659               ['el', 'mismo']                               None                             None
+660          ['mismo', 'maestro']                               None                             None
+661          ['maestro', 'aquel']                               None                             None
+662              ['aquel', 'tan']                               None                             None
+663              ['tan', 'bueno']                               None                             None
+664              ['bueno', 'que']                               None                             None
+665            ['que', 'siempre']                               None                             None
+666          ['siempre', 'sonre']                               None                             None
+667                ['sonre', 'a']                               None                             None
+668                    ['a', 'y']                               None                             None
+669                   ['y', 'no']                               None                             None
+670                  ['no', 'me']                               None                             None
+671                  ['me', 'ha']                               None                             None
+672             ['ha', 'gustado']                               None                             None
+673          ['gustado', 'tanto']                               None                             None
+674             ['tanto', 'esta']                               None                             None
+675              ['esta', 'aula']                               None                             None
+676                ['aula', 'de']                               None                             None
+677                  ['de', 'la']                               None                             None
+678             ['la', 'escuela']                               None                             None
+679           ['escuela', 'como']                               None                             None
+680                ['como', 'la']                               None                             None
+681            ['la', 'anterior']                               None                             None
+682       ['anterior', 'nuestro']                               None                             None
+683        ['nuestro', 'maestro']                               None                             None

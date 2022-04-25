@@ -1,0 +1,2 @@
+               Texto 1/Texto 2  Texto 1/Texto 3  Texto 2/Texto 3
+Similitud Cos         0.005353         0.003566         0.004186
