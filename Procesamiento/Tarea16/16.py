@@ -71,13 +71,15 @@ def calcular_tf(unionFinal,texto):
   return tf_diz
   
 
-#Funcion para calcular los bigramas
-def biGramas(texto):
-    l = []
-    #Dividir los bigramas
-    for i in range(len(texto)-1):
-        l.append(str(texto[i:i+2]))
-    return l
+#Funcion para calcular los trigramas
+def triGramas(texto):
+    ngrams = []
+    chars = 3
+
+    for i in range(len(texto)-chars):
+        ngrams.append(str(texto[i:i+chars]))
+
+    return ngrams
 
 
 ##*****************Leer Archivo de texto **************************
@@ -96,38 +98,41 @@ texto3 = f3.read()
 ##print(textoLower)
 f3.close()
 
-#Unificar los textos (minusculas, quitar espacios, quitar signos y caracteres especiales)
-texto1_min = re.sub(r"[^a-zA-Z0-9]", " ", texto1.lower()).split()
-texto2_min = re.sub(r"[^a-zA-Z0-9]", " ", texto2.lower()).split()
-texto3_min = re.sub(r"[^a-zA-Z0-9]", " ", texto3.lower()).split()
+#Unificar los textos (minusculasquitar signos y caracteres especiales sin quitar los espacios)
+texto1_min = re.sub(r"[^a-zA-Z0-9]", "", texto1.lower())
+texto2_min = re.sub(r"[^a-zA-Z0-9]", "", texto2.lower())
+texto3_min = re.sub(r"[^a-zA-Z0-9]", "", texto3.lower())
 #print(texto1_min)
 #print(texto2_min)
 #print(texto3_min)
 
-#Guardar los diccionarios obtenidos de la función de los biGramas
-D1 = biGramas(texto1_min)
-D2 = biGramas(texto2_min)
-D3 = biGramas(texto3_min)
-print("Texto_1= ",D1)
-print("Texto_2= ",D2)
-print("Texto_3= ",D3)
+#Guardar los diccionarios obtenidos de la función de los triGramas
+D1 = triGramas(texto1_min)
+D2 = triGramas(texto2_min)
+D3 = triGramas(texto3_min)
+#print("Texto_1= ",D1)
+#print("Texto_2= ",D2)
+#print("Texto_3= ",D3)
 
 #Imprimir de forma tabular las frecuencias y los índices que corresponden a los textos que se van a analizar con ayuda de pandas
-bi = pd.DataFrame([D1,D2,D3], index=['Bigramas - Texto 1', 'Bigramas - Texto 2', 'Bigramas - Texto 3'])
+bi = pd.DataFrame([D1,D2,D3], index=['Trigramas - Texto 1', 'Trigramas - Texto 2', 'Trigramas - Texto 3'])
 dataframe1 = bi.transpose()
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
+bi.style.set_table_styles([{'selector' : '', 
+                            'props' : [('border', 
+                                        '2px solid green')]}]) 
 
 #Immprimir tabla en el txt
-f = open ('Bigramas.txt','w',encoding="utf8")
+f = open ('Tigramas.txt','w',encoding="utf8")
 f.write(str(dataframe1))
 f.close()
 
 #Union de las palabras de los textos ((1,2),3)
 union1_2 = np.union1d(D1,D2)
 unionFinal  =  np.union1d(union1_2,D3)
-print("Bigramas encontradas en los textos: ", unionFinal)
+#print("Trigramas encontradas en los textos: ", unionFinal)
 
 
 #Clacular la frecuencia de las palabras por textos unidos comparando el texto unificado
@@ -135,9 +140,9 @@ print("\n\n**********************Frecuencias (tf) *********************")
 tf_texto1 = calcular_tf(unionFinal,D1)
 tf_texto2 = calcular_tf(unionFinal,D2)
 tf_texto3 = calcular_tf(unionFinal,D3)
-print("texto_1 ", tf_texto1)
-print("texto_2 ", tf_texto2)
-print("texto_3 ", tf_texto3)
+#print("texto_1 ", tf_texto1)
+#print("texto_2 ", tf_texto2)
+#print("texto_3 ", tf_texto3)
 print("\n\n")
 
 
@@ -149,18 +154,18 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f3 = open ('TF_Bigramas.txt','w',encoding="utf8")
+f3 = open ('TF_Trigramas.txt','w',encoding="utf8")
 f3.write(str(dataframe2))
 f3.close()
 
 #numero de documentos
 nDocuments = len(df_tf)
-print(nDocuments)
+#print(nDocuments)
 
 #Clacular IDF, con el conjunto de textos y sus frecuencias
 print("**********************Inverse Data Frequency (IDF)*********************")
 idfs = calcular_idf([tf_texto1, tf_texto2, tf_texto3], nDocuments)
-print(idfs)
+#print(idfs)
 print("\n\n")
 
 #Imprimir de forma tabular lod idfs y los índices que corresponden a los textos que se van a analizar con ayuda de pandas
@@ -171,7 +176,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f3 = open ('IDF_Bigramas.txt','w',encoding="utf8")
+f3 = open ('IDF_Trigramas.txt','w',encoding="utf8")
 f3.write(str(dataframe3))
 f3.close()
 
@@ -181,9 +186,9 @@ print("\n\n**********************TF-IDF*********************")
 tfidfTexto_1 = computeTFIDF(tf_texto1, idfs)
 tfidfTexto_2 = computeTFIDF(tf_texto2, idfs)
 tfidfTexto_3 = computeTFIDF(tf_texto3, idfs)
-print("texto_1 ", tfidfTexto_1)
-print("texto_2 ", tfidfTexto_2)
-print("texto_3 ", tfidfTexto_3)
+#print("texto_1 ", tfidfTexto_1)
+#print("texto_2 ", tfidfTexto_2)
+#print("texto_3 ", tfidfTexto_3)
 print("\n\n")
 
 #Imprimir de forma tabular las frecuencias y los índices que corresponden a los textos que se van a analizar con ayuda de pandas
@@ -194,7 +199,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f = open ('TF-IDF_Bigramas.txt','w',encoding="utf8")
+f = open ('TF-IDF_Trigramas.txt','w',encoding="utf8")
 f.write(str(dataframe1))
 f.close()
 
@@ -210,7 +215,7 @@ tex3 = list(tex3)
 sim1 = simCoseno(tex1,tex2)
 sim2 = simCoseno(tex1,tex3)
 sim3 = simCoseno(tex2,tex3)
-print("\n\nSimilitud coseno de los Bigrams")
+print("\n\nSimilitud coseno de los Trigrams")
 print("Sim(Texto1, Texto2)= ",sim1)
 print("Sim(Texto1, Texto3)= ",sim2)
 print("Sim(Texto2, Texto3)= ",sim3)
@@ -225,6 +230,6 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f = open ('simCoseno_Bigramas.txt','w',encoding="utf8")
+f = open ('simCoseno_Trigramas.txt','w',encoding="utf8")
 f.write(str(dataframe1))
 f.close()
