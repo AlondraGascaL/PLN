@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import operator
 from tabulate import tabulate
-import spacy
+import spacy 
 
 
 ##*****************Leer Archivo de texto **************************
