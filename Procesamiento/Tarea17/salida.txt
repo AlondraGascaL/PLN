@@ -1,10 +1,11 @@
 Sentence 1 ************sn-grams of words:
 
 ************Size: 2
-EMPTY
+lee[Juan]	1
+lee[libro]	1
 
 ************Size: 3
-EMPTY
+lee[Juan,libro]	1
 
 ************Size: 4
 EMPTY

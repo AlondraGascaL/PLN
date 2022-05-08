@@ -22,10 +22,10 @@ listaAux = {}
 for sent in doc.sentences: 
     for word in sent.words:
         if word.head > 0:
-            aux = word.deprel+'('+sent.words[word.head-1].text+'-'+str(word.head)+','+word.text+'-'+str(word.id)+')'
+            aux = word.deprel+'('+sent.words[word.head-1].text+'-'+str(word.head)+', '+word.text+'-'+str(word.id)+')'
             listaAux[word.id-1] = aux
         else:
-            aux = word.deprel+'('+"root"+'-'+str(word.head)+','+word.text+'-'+str(word.id)+')'
+            aux = word.deprel+'('+"root"+'-'+str(word.head)+', '+word.text+'-'+str(word.id)+')'
             listaAux[word.id-1] = aux
         
 with open("prueba.txt", 'w') as f: 
