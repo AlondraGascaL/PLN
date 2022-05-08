@@ -15,7 +15,7 @@ f.close()
 
 
 
-doc = nlp('Juan lee libro')
+doc = nlp(texto1)
 listaAux = {}
 
 
@@ -28,6 +28,6 @@ for sent in doc.sentences:
             aux = word.deprel+'('+"root"+'-'+str(word.head)+', '+word.text+'-'+str(word.id)+')'
             listaAux[word.id-1] = aux
         
-with open("prueba.txt", 'w') as f: 
+with open("salida_arbol_texto3.txt", 'w') as f: 
     for value in listaAux.values(): 
         f.write('%s\n' % value)
