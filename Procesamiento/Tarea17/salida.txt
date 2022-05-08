@@ -1,0 +1,20 @@
+Sentence 1 ************sn-grams of words:
+
+************Size: 2
+EMPTY
+
+************Size: 3
+EMPTY
+
+************Size: 4
+EMPTY
+
+************Size: 5
+EMPTY
+
+************Size: 6
+EMPTY
+
+************Size: 7
+EMPTY
+
