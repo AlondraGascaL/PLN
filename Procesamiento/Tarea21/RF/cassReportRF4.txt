@@ -1,0 +1,23 @@
+Atributo -> physicianfeefreeze
+
+======================================
+Porcentaje, 0.94
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.91      1.00      0.95        51
+           2       1.00      0.91      0.95        34
+
+    accuracy                           0.94        87
+   macro avg       0.64      0.64      0.64        87
+weighted avg       0.92      0.94      0.93        87
+
+======================================
+Confusion Matrix
+
+[[ 0  2  0]
+ [ 0 51  0]
+ [ 0  3 31]]

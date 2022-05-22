@@ -1,0 +1,23 @@
+Atributo -> aidtonicaraguancontras
+
+======================================
+Porcentaje, 0.79
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.68      0.75      0.71        28
+           2       0.86      0.89      0.87        54
+
+    accuracy                           0.79        87
+   macro avg       0.51      0.55      0.53        87
+weighted avg       0.75      0.79      0.77        87
+
+======================================
+Confusion Matrix
+
+[[ 0  4  1]
+ [ 0 21  7]
+ [ 0  6 48]]

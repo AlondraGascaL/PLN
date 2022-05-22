@@ -1,0 +1,23 @@
+Atributo -> exportadministrationactsouthafrica
+
+======================================
+Porcentaje, 0.85
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.91      0.95        22
+           1       0.60      0.23      0.33        13
+           2       0.82      0.98      0.89        52
+
+    accuracy                           0.85        87
+   macro avg       0.81      0.71      0.73        87
+weighted avg       0.83      0.85      0.83        87
+
+======================================
+Confusion Matrix
+
+[[20  1  1]
+ [ 0  3 10]
+ [ 0  1 51]]

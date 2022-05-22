@@ -1,0 +1,23 @@
+Atributo -> educationspending
+
+======================================
+Porcentaje, 0.77
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         9
+           1       0.80      0.88      0.84        51
+           2       0.71      0.81      0.76        27
+
+    accuracy                           0.77        87
+   macro avg       0.50      0.57      0.53        87
+weighted avg       0.69      0.77      0.73        87
+
+======================================
+Confusion Matrix
+
+[[ 0  6  3]
+ [ 0 45  6]
+ [ 0  5 22]]

@@ -1,0 +1,23 @@
+Atributo -> synfuelscorporationcutback
+
+======================================
+Porcentaje, 0.82
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         6
+           1       0.76      1.00      0.87        52
+           2       1.00      0.66      0.79        29
+
+    accuracy                           0.82        87
+   macro avg       0.59      0.55      0.55        87
+weighted avg       0.79      0.82      0.78        87
+
+======================================
+Confusion Matrix
+
+[[ 0  6  0]
+ [ 0 52  0]
+ [ 0 10 19]]

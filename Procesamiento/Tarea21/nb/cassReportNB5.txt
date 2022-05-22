@@ -1,0 +1,23 @@
+Atributo -> elsalvadoraid
+
+======================================
+Porcentaje, 0.92
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         4
+           1       0.88      0.98      0.92        43
+           2       0.97      0.95      0.96        40
+
+    accuracy                           0.92        87
+   macro avg       0.62      0.64      0.63        87
+weighted avg       0.88      0.92      0.90        87
+
+======================================
+Confusion Matrix
+
+[[ 0  4  0]
+ [ 0 42  1]
+ [ 0  2 38]]

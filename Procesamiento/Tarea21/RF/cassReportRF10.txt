@@ -1,0 +1,23 @@
+Atributo -> immigration
+
+======================================
+Porcentaje, 0.47
+======================================
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.46      0.62      0.53        42
+           2       0.48      0.34      0.40        44
+
+    accuracy                           0.47        87
+   macro avg       0.32      0.32      0.31        87
+weighted avg       0.47      0.47      0.46        87
+
+======================================
+Confusion Matrix
+
+[[ 0  1  0]
+ [ 0 26 16]
+ [ 0 29 15]]
