@@ -11,7 +11,7 @@ eterna[es]	1
 pensamiento[sorprenderá]	1
 sorprenderá[los]	1
 pensamiento[Ah]	1
-inmortales[somos]	2
+inmortales[somos]	1
 inmortales[:]	1
 pensamiento[pensó]	1
 vamos[que]	1
@@ -23,14 +23,14 @@ vamos[a]	1
 inmortales[ignoramos]	1
 vamos[vez]	1
 Ah[.]	1
-pensó[\\,]	2
+pensó[\\,]	1
 eterna[vida]	1
 eterna[en]	1
 pensó[tigre]	1
 inmortales[no]	1
 inmortales[...]	1
 en[particular]	1
-.[.]	2
+.[.]	1
 mente[en]	1
 sorprenderá[que]	1
 vez[alguna]	1
@@ -97,7 +97,7 @@ pensamiento[Ah,ese]	1
 eterna[vida,estética]	1
 solo[pensamiento[inmortales]]	1
 vamos[que,a]	1
-pensamiento[pensó[\\,]]	2
+pensamiento[pensó[\\,]]	1
 .[.,.]	1
 .[mente[su]]	1
 eterna[no,estética]	1
@@ -148,7 +148,7 @@ solo[pensamiento[sorprenderá,inmortales]]	1
 ignoramos[solo[pensamiento[inmortales]]]	1
 pensó[adentros[sus],\\,]	1
 pensamiento[sorprenderá,inmortales[no]]	1
-pensamiento[pensó[\\,],ese]	2
+pensamiento[pensó[\\,],ese]	1
 solo[pensamiento[un,sorprenderá]]	1
 ignoramos[vamos[vez,a]]	1
 ignoramos[vamos[que[.]]]	1
@@ -197,7 +197,7 @@ inmortales[ignoramos[solo],...]	1
 pensamiento[inmortales[eterna[vida]]]	1
 solo[pensamiento[ese,es]]	1
 inmortales[ignoramos[solo[pensamiento]]]	1
-pensamiento[",pensó[\\,]]	2
+pensamiento[",pensó[\\,]]	1
 pensó[\\,,tigre[el]]	1
 pensamiento[inmortales[:,eterna]]	1
 inmortales[eterna[estética,en]]	1
@@ -262,7 +262,7 @@ solo[pensamiento[pensó[tigre]]]	1
 inmortales[:,eterna[en]]	1
 solo[pensamiento[sorprenderá[los]]]	1
 solo[pensamiento[",es]]	1
-pensamiento[Ah,pensó[\\,]]	2
+pensamiento[Ah,pensó[\\,]]	1
 pensamiento[pensó[adentros,\\,]]	1
 inmortales[:,eterna[estética]]	1
 inmortales[no,eterna[estética]]	1
@@ -289,7 +289,7 @@ inmortales[somos,ignoramos,...]	1
 pensamiento[inmortales[eterna[estética]]]	1
 pensó[tigre,adentros[para]]	1
 vamos[vez[alguna],a]	1
-pensamiento[pensó[\\,],es]	2
+pensamiento[pensó[\\,],es]	1
 solo[pensamiento[",ese]]	1
 solo[pensamiento[inmortales[no]]]	1
 inmortales[ignoramos[vamos[a]]]	1
@@ -309,7 +309,7 @@ eterna[es,en[particular]]	1
 ignoramos[solo[pensamiento[un]]]	1
 pensó[adentros[para],\\,]	1
 inmortales[:,eterna[es]]	1
-solo[pensamiento[pensó[\\,]]]	2
+solo[pensamiento[pensó[\\,]]]	1
 eterna[vida[la],estética]	1
 inmortales[eterna[no,en]]	1
 ignoramos[vamos[que,vez]]	1
@@ -381,7 +381,7 @@ pensamiento[inmortales[\\,,eterna[vida]]]	1
 pensamiento[inmortales[:,somos,\\,]]	1
 ignoramos[solo[pensamiento[",pensó]]]	1
 solo[pensamiento[pensó[tigre],es]]	1
-pensamiento[",pensó[\\,],es]	2
+pensamiento[",pensó[\\,],es]	1
 ignoramos[solo,vamos[vez,a]]	1
 pensamiento[inmortales[:,eterna[vida]]]	1
 pensamiento[pensó[tigre],ese,es]	1
@@ -402,7 +402,7 @@ solo[pensamiento[un,sorprenderá,inmortales]]	1
 pensamiento[pensó[tigre,\\,],es]	1
 pensamiento[",Ah,pensó,ese]	1
 solo[pensamiento[un,inmortales[eterna]]]	1
-pensamiento[Ah,pensó[\\,],es]	2
+pensamiento[Ah,pensó[\\,],es]	1
 pensamiento[",pensó[adentros],ese]	1
 pensamiento[inmortales[eterna[es,en]]]	1
 pensamiento[sorprenderá,inmortales[eterna[vida]]]	1
@@ -449,7 +449,7 @@ inmortales[:,somos,eterna[es]]	1
 eterna[vida,estética,en[particular]]	1
 inmortales[somos,eterna[es,estética]]	1
 inmortales[:,eterna[vida,no]]	1
-pensamiento[",pensó[\\,],ese]	2
+pensamiento[",pensó[\\,],ese]	1
 vamos[que,vez[alguna],a]	1
 inmortales[eterna[vida,no,en]]	1
 inmortales[:,no,eterna[no]]	1
@@ -479,7 +479,7 @@ inmortales[no,somos,eterna[es]]	1
 eterna[vida,no,estética,en]	1
 inmortales[eterna[no,estética,en]]	1
 vamos[que[.],vez,a]	1
-pensamiento[Ah[.],pensó[\\,]]	2
+pensamiento[Ah[.],pensó[\\,]]	1
 solo[pensamiento[sorprenderá,inmortales[:]]]	1
 solo[pensamiento[inmortales[eterna[no]]]]	1
 pensamiento[un,inmortales[no,somos]]	1
@@ -525,7 +525,7 @@ solo[pensamiento[",pensó[adentros]]]	1
 inmortales[\\,,eterna[vida,en]]	1
 pensamiento[sorprenderá,inmortales[no,eterna]]	1
 ignoramos[solo,vamos[que,vez]]	1
-solo[pensamiento[Ah,pensó[\\,]]]	2
+solo[pensamiento[Ah,pensó[\\,]]]	1
 pensamiento[pensó[\\,,adentros],ese]	1
 pensamiento[",pensó[adentros[para]]]	1
 inmortales[:,no,\\,,eterna]	1
@@ -538,7 +538,7 @@ inmortales[somos,\\,,eterna[es]]	1
 solo[pensamiento[inmortales[:,\\,]]]	1
 pensamiento[inmortales[\\,,eterna[es]]]	1
 inmortales[ignoramos[vamos[que]],...]	1
-solo[pensamiento[",pensó[\\,]]]	2
+solo[pensamiento[",pensó[\\,]]]	1
 pensamiento[pensó[adentros,\\,],es]	1
 solo[pensamiento[Ah,ese,es]]	1
 pensamiento[pensó[tigre,adentros[para]]]	1
@@ -581,9 +581,9 @@ inmortales[\\,,eterna[es,estética]]	1
 pensamiento[inmortales[no,somos,\\,]]	1
 pensamiento[Ah,pensó[tigre],ese]	1
 pensamiento[pensó[\\,,adentros[sus]]]	1
-solo[pensamiento[pensó[\\,],ese]]	2
+solo[pensamiento[pensó[\\,],ese]]	1
 eterna[vida[la],estética,en]	1
-pensamiento[Ah,pensó[\\,],ese]	2
+pensamiento[Ah,pensó[\\,],ese]	1
 inmortales[eterna[estética,en[particular]]]	1
 solo[pensamiento[inmortales[eterna[estética]]]]	1
 ignoramos[solo[pensamiento[",es]]]	1
@@ -654,7 +654,7 @@ pensamiento[un,sorprenderá,inmortales[somos]]	1
 solo[pensamiento[pensó[adentros],es]]	1
 solo[pensamiento[Ah[.],es]]	1
 inmortales[somos,\\,,eterna[no]]	1
-ignoramos[solo[pensamiento[pensó[\\,]]]]	2
+ignoramos[solo[pensamiento[pensó[\\,]]]]	1
 inmortales[ignoramos[solo[pensamiento[ese]]]]	1
 eterna[no,es,estética,en]	1
 solo[pensamiento[pensó[\\,,\\,]]]	1
@@ -743,7 +743,7 @@ eterna[vida[la],es,estética]	1
 pensamiento[sorprenderá[que],inmortales[eterna]]	1
 ignoramos[vamos[vez,a[morirán]]]	1
 pensamiento[pensó[\\,,tigre,\\,]]	1
-solo[pensamiento[pensó[\\,],es]]	2
+solo[pensamiento[pensó[\\,],es]]	1
 pensamiento[pensó[\\,,adentros],es]	1
 solo[pensamiento[",pensó,es]]	1
 inmortales[no,eterna[estética,en]]	1
@@ -775,7 +775,7 @@ pensamiento[inmortales[:,eterna[es]]]	1
 solo[pensamiento[",Ah,pensó]]	1
 eterna[vida,no,en[particular]]	1
 pensamiento[un,inmortales[no,\\,]]	1
-pensamiento[pensó[\\,],ese,es]	2
+pensamiento[pensó[\\,],ese,es]	1
 pensamiento[pensó[tigre[el],\\,]]	1
 pensamiento[Ah,pensó[adentros[para]]]	1
 solo[pensamiento[Ah[.],pensó]]	1
@@ -783,7 +783,7 @@ pensamiento[Ah,pensó[tigre,adentros]]	1
 pensamiento[inmortales[somos,\\,,eterna]]	1
 pensamiento[inmortales[eterna[vida[la]]]]	1
 pensó[tigre,adentros[para,sus]]	1
-pensamiento[",Ah,pensó[\\,]]	2
+pensamiento[",Ah,pensó[\\,]]	1
 solo[pensamiento[un,inmortales[no]]]	1
 pensamiento[",pensó[tigre],es]	1
 solo[pensamiento[un,inmortales[somos]]]	1
@@ -895,7 +895,7 @@ inmortales[:,somos,\\,,eterna[es]]	1
 pensamiento[inmortales[somos,eterna[vida,en]]]	1
 ignoramos[solo[pensamiento[ese]],vamos[que]]	1
 inmortales[eterna[vida[la],es,estética]]	1
-solo[pensamiento[",pensó[\\,],es]]	2
+solo[pensamiento[",pensó[\\,],es]]	1
 ignoramos[vamos[que[.],a[morirán]]]	1
 pensamiento[Ah,pensó[tigre,\\,],ese]	1
 inmortales[\\,,eterna[no,en[particular]]]	1
@@ -912,14 +912,14 @@ ignoramos[solo[pensamiento[inmortales]],vamos[que]]	1
 inmortales[somos,\\,,eterna[vida,en]]	1
 solo[pensamiento[",Ah[.],pensó]]	1
 inmortales[ignoramos[solo[pensamiento],vamos],...]	1
-pensamiento[Ah[.[mente]],pensó[\\,]]	2
+pensamiento[Ah[.[mente]],pensó[\\,]]	1
 pensamiento[pensó[tigre,adentros[sus]],ese]	1
 inmortales[:,no,eterna[no,es]]	1
-ignoramos[solo[pensamiento[pensó[\\,],es]]]	2
+ignoramos[solo[pensamiento[pensó[\\,],es]]]	1
 pensamiento[sorprenderá[que],inmortales[eterna[en]]]	1
 inmortales[no,somos,eterna[estética,en]]	1
 inmortales[ignoramos[solo[pensamiento[ese]],vamos]]	1
-solo[pensamiento[Ah[.],pensó[\\,]]]	2
+solo[pensamiento[Ah[.],pensó[\\,]]]	1
 solo[pensamiento[inmortales[no,eterna[es]]]]	1
 pensamiento[un,inmortales[somos,eterna[no]]]	1
 pensamiento[",Ah,pensó,ese,es]	1
@@ -972,7 +972,7 @@ inmortales[ignoramos[solo[pensamiento[sorprenderá,inmortales]]]]	1
 inmortales[somos,eterna[es,estética,en]]	1
 inmortales[ignoramos[solo[pensamiento[inmortales[somos]]]]]	1
 solo[pensamiento[inmortales[somos,eterna[no]]]]	1
-solo[pensamiento[Ah,pensó[\\,],es]]	2
+solo[pensamiento[Ah,pensó[\\,],es]]	1
 inmortales[ignoramos[solo,vamos[vez,a]]]	1
 pensamiento[",pensó[tigre,\\,],ese]	1
 pensamiento[Ah[.],pensó[tigre,adentros]]	1
@@ -991,7 +991,7 @@ inmortales[no,somos,eterna[vida,en]]	1
 solo[pensamiento[inmortales[eterna[vida,en]]]]	1
 pensamiento[sorprenderá[que],inmortales[:,no]]	1
 pensamiento[inmortales[\\,,eterna[no,es]]]	1
-pensamiento[",Ah[.],pensó[\\,]]	2
+pensamiento[",Ah[.],pensó[\\,]]	1
 solo[pensamiento[",pensó[tigre],ese]]	1
 pensamiento[pensó[tigre,adentros,\\,],ese]	1
 inmortales[:,somos,eterna[es,estética]]	1
@@ -1043,7 +1043,7 @@ pensamiento[",pensó[\\,,tigre],es]	1
 pensamiento[pensó[\\,,adentros[para]],ese]	1
 solo[pensamiento[inmortales[eterna[es,estética]]]]	1
 pensamiento[sorprenderá[los],inmortales[no,eterna]]	1
-solo[pensamiento[",pensó[\\,],ese]]	2
+solo[pensamiento[",pensó[\\,],ese]]	1
 inmortales[:,\\,,eterna[estética,en]]	1
 inmortales[:,eterna[vida,no,es]]	1
 inmortales[somos,\\,,eterna[es,en]]	1
@@ -1054,7 +1054,7 @@ pensamiento[inmortales[eterna[vida,en[particular]]]]	1
 pensamiento[Ah,pensó[tigre,adentros,\\,]]	1
 pensamiento[inmortales[somos,eterna[no,estética]]]	1
 solo[pensamiento[un,inmortales[:,eterna]]]	1
-ignoramos[solo[pensamiento[Ah,pensó[\\,]]]]	2
+ignoramos[solo[pensamiento[Ah,pensó[\\,]]]]	1
 pensamiento[inmortales[:,somos,eterna[no]]]	1
 ignoramos[solo[pensamiento[Ah]],vamos[que]]	1
 eterna[vida[la],estética,en[particular]]	1
@@ -1145,7 +1145,7 @@ ignoramos[vamos[que,vez,a[morirán]]]	1
 pensamiento[pensó[\\,,adentros],ese,es]	1
 pensamiento[un,sorprenderá,inmortales[eterna[es]]]	1
 solo[pensamiento[un,sorprenderá[los],inmortales]]	1
-ignoramos[solo[pensamiento[pensó[\\,]]],vamos]	2
+ignoramos[solo[pensamiento[pensó[\\,]]],vamos]	1
 pensamiento[inmortales[eterna[vida[la],en]]]	1
 pensamiento[Ah,pensó[tigre[el],adentros]]	1
 solo[pensamiento[pensó[adentros,\\,],ese]]	1
@@ -1187,7 +1187,7 @@ ignoramos[solo[pensamiento[sorprenderá,inmortales[eterna]]]]	1
 pensamiento[Ah[.],pensó[adentros],es]	1
 pensamiento[pensó[adentros[para]],ese,es]	1
 inmortales[\\,,eterna[vida,en[particular]]]	1
-pensamiento[",pensó[\\,],ese,es]	2
+pensamiento[",pensó[\\,],ese,es]	1
 inmortales[\\,,eterna[es,en[particular]]]	1
 inmortales[ignoramos[vamos[que[.],vez]]]	1
 pensamiento[un,sorprenderá,inmortales[:,\\,]]	1
@@ -1197,14 +1197,14 @@ inmortales[:,eterna[vida[la],en]]	1
 inmortales[:,eterna[vida[la],es]]	1
 inmortales[somos,ignoramos[solo[pensamiento["]]]]	1
 inmortales[somos,ignoramos[solo,vamos],...]	1
-solo[pensamiento[Ah,pensó[\\,],ese]]	2
+solo[pensamiento[Ah,pensó[\\,],ese]]	1
 inmortales[no,eterna[no,es,en]]	1
 pensamiento[un,inmortales[eterna[es,estética]]]	1
 inmortales[somos,eterna[no,es,estética]]	1
 solo[pensamiento[",pensó[adentros],ese]]	1
 inmortales[somos,ignoramos[solo[pensamiento[inmortales]]]]	1
 pensamiento[un,sorprenderá[los],inmortales[\\,]]	1
-solo[pensamiento[pensó[\\,],ese,es]]	2
+solo[pensamiento[pensó[\\,],ese,es]]	1
 inmortales[ignoramos[solo[pensamiento[un]]],...]	1
 solo[pensamiento[inmortales[eterna[no,en]]]]	1
 inmortales[eterna[no,es,en[particular]]]	1
@@ -1256,7 +1256,7 @@ pensamiento[inmortales[no,eterna[no,en]]]	1
 inmortales[:,no,somos,eterna[no]]	1
 inmortales[somos,\\,,eterna[vida[la]]]	1
 pensamiento[inmortales[no,\\,,eterna[en]]]	1
-ignoramos[solo[pensamiento[",pensó[\\,]]]]	2
+ignoramos[solo[pensamiento[",pensó[\\,]]]]	1
 pensamiento[",pensó[tigre[el]],es]	1
 pensamiento[sorprenderá,inmortales[eterna[estética,en]]]	1
 pensamiento[",Ah[.[mente[su]]]]	1
@@ -1406,7 +1406,7 @@ solo[pensamiento[pensó[tigre,adentros,\\,]]]	1
 inmortales[ignoramos[solo[pensamiento[Ah]],vamos]]	1
 pensamiento[",pensó[tigre,adentros[para]]]	1
 inmortales[ignoramos[vamos[que,vez,a]]]	1
-pensamiento[Ah,pensó[\\,],ese,es]	2
+pensamiento[Ah,pensó[\\,],ese,es]	1
 solo[pensamiento[Ah[.],pensó[adentros]]]	1
 solo[pensamiento[inmortales[:,eterna[en]]]]	1
 pensamiento[un,inmortales[eterna[vida,no]]]	1
@@ -1427,12 +1427,12 @@ pensamiento[inmortales[eterna[estética,en[particular]]]]	1
 pensamiento[inmortales[\\,,eterna[vida[la]]]]	1
 pensamiento[inmortales[eterna[vida[la],no]]]	1
 solo[pensamiento[un,sorprenderá[que],inmortales]]	1
-inmortales[ignoramos[solo[pensamiento[pensó[\\,]]]]]	2
+inmortales[ignoramos[solo[pensamiento[pensó[\\,]]]]]	1
 pensamiento[Ah[.],pensó[\\,,\\,]]	1
 pensamiento[sorprenderá[que],inmortales[:,somos]]	1
 pensamiento[",Ah,pensó[tigre,adentros]]	1
 pensamiento[pensó[tigre,adentros[para],\\,]]	1
-solo[pensamiento[",Ah,pensó[\\,]]]	2
+solo[pensamiento[",Ah,pensó[\\,]]]	1
 pensamiento[sorprenderá,inmortales[:,eterna[vida]]]	1
 ignoramos[solo[pensamiento[un]],vamos[vez]]	1
 pensamiento[inmortales[\\,,eterna[no,en]]]	1
@@ -1465,7 +1465,7 @@ solo[pensamiento[inmortales[:,no,eterna]]]	1
 inmortales[somos,\\,,eterna[es,estética]]	1
 ignoramos[solo[pensamiento[un,sorprenderá]],vamos]	1
 pensamiento[Ah[.],pensó[tigre,\\,]]	1
-pensamiento[Ah[.],pensó[\\,],ese]	2
+pensamiento[Ah[.],pensó[\\,],ese]	1
 inmortales[no,eterna[vida,no,estética]]	1
 pensamiento[sorprenderá,inmortales[eterna[vida,no]]]	1
 pensamiento[un,sorprenderá[que],inmortales[:]]	1
@@ -1570,7 +1570,7 @@ solo[pensamiento[un,inmortales[somos,\\,]]]	1
 inmortales[ignoramos[solo[pensamiento[",pensó]]]]	1
 pensamiento[inmortales[no,eterna[no,es]]]	1
 solo[pensamiento[inmortales[\\,,eterna[no]]]]	1
-pensamiento[Ah[.],pensó[\\,],es]	2
+pensamiento[Ah[.],pensó[\\,],es]	1
 ignoramos[vamos[que[.],vez,a]]	1
 inmortales[eterna[es,estética,en[particular]]]	1
 pensamiento[sorprenderá,inmortales[no,somos,\\,]]	1
@@ -1668,7 +1668,7 @@ inmortales[ignoramos[solo[pensamiento],vamos[a]]]	1
 pensamiento[inmortales[eterna[es,en[particular]]]]	1
 pensamiento[inmortales[\\,,eterna[no,estética]]]	1
 inmortales[no,\\,,eterna[vida,estética]]	1
-ignoramos[solo[pensamiento[pensó[\\,],ese]]]	2
+ignoramos[solo[pensamiento[pensó[\\,],ese]]]	1
 ignoramos[solo[pensamiento[sorprenderá,inmortales[:]]]]	1
 pensamiento[un,inmortales[:,eterna[no]]]	1
 pensamiento[inmortales[somos,eterna[estética,en]]]	1
@@ -1762,7 +1762,7 @@ pensamiento[sorprenderá,inmortales[\\,,eterna[vida]]]	1
 pensó[tigre[el],adentros[para,sus]]	1
 ignoramos[solo[pensamiento[inmortales[:,\\,]]]]	1
 pensamiento[",Ah[.[mente]],pensó]	1
-pensamiento[",Ah,pensó[\\,],es]	2
+pensamiento[",Ah,pensó[\\,],es]	1
 ignoramos[solo[pensamiento[inmortales[somos]]],vamos]	1
 inmortales[eterna[vida[la],no,estética]]	1
 pensó[\\,,tigre[el],adentros[para]]	1
@@ -1815,7 +1815,7 @@ inmortales[:,no,eterna[vida,en]]	1
 inmortales[somos,ignoramos[solo[pensamiento[ese]]]]	1
 inmortales[:,no,somos,\\,,eterna]	1
 inmortales[:,eterna[es,estética,en]]	1
-pensamiento[",Ah,pensó[\\,],ese]	2
+pensamiento[",Ah,pensó[\\,],ese]	1
 inmortales[:,\\,,eterna[en[particular]]]	1
 pensamiento[",pensó[tigre[el]],ese]	1
 inmortales[no,somos,eterna[vida,es]]	1
@@ -1920,7 +1920,7 @@ inmortales[somos,ignoramos[solo,vamos[que[.]]]]	1
 ignoramos[solo[pensamiento[inmortales[no,somos,\\,]]]]	1
 ignoramos[solo[pensamiento[sorprenderá[que],inmortales[:]]]]	1
 inmortales[ignoramos[solo[pensamiento[pensó]],vamos],...]	1
-ignoramos[solo[pensamiento[pensó[\\,]]],vamos[a]]	2
+ignoramos[solo[pensamiento[pensó[\\,]]],vamos[a]]	1
 ignoramos[solo[pensamiento[sorprenderá[que],inmortales]],vamos]	1
 inmortales[somos,ignoramos[solo[pensamiento[inmortales[\\,]]]]]	1
 ignoramos[solo[pensamiento[un,inmortales]],vamos[a]]	1
@@ -1937,7 +1937,7 @@ pensamiento[pensó[\\,,adentros[sus]],ese,es]	1
 inmortales[somos,\\,,eterna[es,en[particular]]]	1
 ignoramos[solo[pensamiento[pensó[\\,,adentros[sus]]]]]	1
 solo[pensamiento[pensó[\\,,adentros[para]],es]]	1
-ignoramos[solo[pensamiento[",pensó[\\,]]],vamos]	2
+ignoramos[solo[pensamiento[",pensó[\\,]]],vamos]	1
 solo[pensamiento[inmortales[:,eterna[es,estética]]]]	1
 pensamiento[inmortales[:,eterna[vida,es,en]]]	1
 inmortales[somos,eterna[vida[la],no,estética]]	1
@@ -1974,7 +1974,7 @@ inmortales[somos,ignoramos[solo,vamos[a]],...]	1
 pensamiento[pensó[tigre,adentros,\\,],ese,es]	1
 eterna[vida[la],no,estética,en[particular]]	1
 pensamiento[un,sorprenderá,inmortales[:,eterna[en]]]	1
-solo[pensamiento[Ah[.[mente]],pensó[\\,]]]	2
+solo[pensamiento[Ah[.[mente]],pensó[\\,]]]	1
 inmortales[no,somos,eterna[vida,no,en]]	1
 ignoramos[solo[pensamiento[inmortales[eterna]]],vamos[que]]	1
 pensamiento[inmortales[no,eterna[no,es,en]]]	1
@@ -2032,7 +2032,7 @@ solo[pensamiento[inmortales[eterna[vida,no,en]]]]	1
 pensamiento[Ah,pensó[tigre,adentros[sus]],es]	1
 inmortales[somos,eterna[no,es,en[particular]]]	1
 ignoramos[solo[pensamiento[sorprenderá]],vamos[que,a]]	1
-ignoramos[solo[pensamiento[Ah,pensó[\\,],ese]]]	2
+ignoramos[solo[pensamiento[Ah,pensó[\\,],ese]]]	1
 solo[pensamiento[un,sorprenderá,inmortales[eterna[vida]]]]	1
 pensamiento[Ah,pensó[adentros[para],\\,],ese]	1
 solo[pensamiento[un,sorprenderá,inmortales[:,somos]]]	1
@@ -2123,7 +2123,7 @@ solo[pensamiento[sorprenderá,inmortales[:,\\,,eterna]]]	1
 ignoramos[solo[pensamiento[",Ah[.]]],vamos]	1
 pensamiento[sorprenderá[que],inmortales[somos,\\,,eterna]]	1
 pensamiento[sorprenderá,inmortales[:,eterna[vida,no]]]	1
-inmortales[ignoramos[solo[pensamiento[pensó[\\,],es]]]]	2
+inmortales[ignoramos[solo[pensamiento[pensó[\\,],es]]]]	1
 solo[pensamiento[inmortales[eterna[no,en[particular]]]]]	1
 inmortales[:,somos,\\,,eterna[vida,no]]	1
 pensamiento[sorprenderá,inmortales[no,eterna[es,en]]]	1
@@ -2252,13 +2252,13 @@ solo[pensamiento[inmortales[eterna[estética,en[particular]]]]]	1
 pensamiento[inmortales[no,somos,eterna[vida,es]]]	1
 pensamiento[",pensó[adentros[para,sus]],es]	1
 inmortales[:,no,somos,\\,,eterna[vida]]	1
-ignoramos[solo[pensamiento[pensó[\\,],es]],vamos]	2
+ignoramos[solo[pensamiento[pensó[\\,],es]],vamos]	1
 pensamiento[sorprenderá[los],inmortales[eterna[vida,en]]]	1
 pensamiento[sorprenderá,inmortales[:,eterna[estética,en]]]	1
 pensamiento[sorprenderá[los],inmortales[eterna[vida,es]]]	1
 pensamiento[",pensó[\\,,tigre[el],\\,]]	1
 pensamiento[sorprenderá[que],inmortales[no,eterna[en]]]	1
-ignoramos[solo[pensamiento[Ah,pensó[\\,],es]]]	2
+ignoramos[solo[pensamiento[Ah,pensó[\\,],es]]]	1
 ignoramos[solo[pensamiento[ese]],vamos[que[.]]]	1
 pensamiento[pensó[tigre,adentros[sus],\\,],ese]	1
 pensamiento[inmortales[somos,eterna[vida,es,en]]]	1
@@ -2270,7 +2270,7 @@ ignoramos[solo[pensamiento[inmortales[eterna[en]]]],vamos]	1
 pensamiento[un,sorprenderá[que],inmortales[eterna[estética]]]	1
 inmortales[ignoramos[solo[pensamiento],vamos[que]],...]	1
 pensamiento[un,inmortales[:,somos,eterna[en]]]	1
-ignoramos[solo[pensamiento[",pensó[\\,],es]]]	2
+ignoramos[solo[pensamiento[",pensó[\\,],es]]]	1
 inmortales[no,eterna[vida[la],no,es]]	1
 inmortales[ignoramos[vamos[que[.],vez]],...]	1
 pensamiento[un,sorprenderá[los],inmortales[eterna[vida]]]	1
@@ -2280,7 +2280,7 @@ solo[pensamiento[un,inmortales[somos,eterna[vida]]]]	1
 solo[pensamiento[inmortales[:,\\,,eterna[estética]]]]	1
 ignoramos[solo[pensamiento[es]],vamos[que,a]]	1
 ignoramos[solo[pensamiento[pensó[adentros[para],\\,]]]]	1
-solo[pensamiento[Ah[.],pensó[\\,],es]]	2
+solo[pensamiento[Ah[.],pensó[\\,],es]]	1
 inmortales[:,no,eterna[vida[la],no]]	1
 solo[pensamiento[sorprenderá,inmortales[no,eterna[en]]]]	1
 pensamiento[Ah[.],pensó[\\,,\\,],ese]	1
@@ -2305,7 +2305,7 @@ inmortales[no,eterna[vida[la],estética,en]]	1
 pensamiento[sorprenderá,inmortales[\\,,eterna[vida,en]]]	1
 inmortales[ignoramos[vamos[que[.],vez,a]]]	1
 inmortales[ignoramos[solo[pensamiento],vamos[a]],...]	1
-solo[pensamiento[Ah,pensó[\\,],ese,es]]	2
+solo[pensamiento[Ah,pensó[\\,],ese,es]]	1
 solo[pensamiento[un,inmortales[somos,\\,,eterna]]]	1
 pensamiento[sorprenderá,inmortales[no,eterna[estética,en]]]	1
 solo[pensamiento[Ah,pensó[\\,,tigre],ese]]	1
@@ -2350,7 +2350,7 @@ solo[pensamiento[inmortales[:,eterna[no,en]]]]	1
 ignoramos[solo[pensamiento[ese]],vamos[a[morirán]]]	1
 inmortales[:,somos,eterna[vida,no,estética]]	1
 solo[pensamiento[un,sorprenderá,inmortales[somos,eterna]]]	1
-pensamiento[Ah[.[mente[en]]],pensó[\\,]]	2
+pensamiento[Ah[.[mente[en]]],pensó[\\,]]	1
 pensamiento[inmortales[somos,\\,,eterna[no,es]]]	1
 solo[pensamiento[",pensó[adentros],ese,es]]	1
 pensamiento[un,inmortales[\\,,eterna[en[particular]]]]	1
@@ -2382,7 +2382,7 @@ ignoramos[solo[pensamiento[un,inmortales[eterna]]],vamos]	1
 solo[pensamiento[un,sorprenderá,inmortales[no,eterna]]]	1
 solo[pensamiento[inmortales[\\,,eterna[no,estética]]]]	1
 solo[pensamiento[Ah,pensó[\\,,adentros,\\,]]]	1
-ignoramos[solo[pensamiento[pensó[\\,],ese,es]]]	2
+ignoramos[solo[pensamiento[pensó[\\,],ese,es]]]	1
 pensamiento[un,inmortales[:,somos,eterna[estética]]]	1
 inmortales[somos,\\,,eterna[vida,es,en]]	1
 pensamiento[inmortales[eterna[vida,no,en[particular]]]]	1
@@ -2412,13 +2412,13 @@ inmortales[:,no,somos,eterna[no,en]]	1
 solo[pensamiento[Ah,pensó[\\,,adentros],ese]]	1
 inmortales[ignoramos[solo[pensamiento[sorprenderá,inmortales[eterna]]]]]	1
 pensamiento[inmortales[:,no,somos,\\,,eterna]]	1
-solo[pensamiento[Ah[.],pensó[\\,],ese]]	2
+solo[pensamiento[Ah[.],pensó[\\,],ese]]	1
 solo[pensamiento[pensó[tigre[el],adentros],es]]	1
 inmortales[:,no,\\,,eterna[es,en]]	1
 inmortales[ignoramos[vamos[vez[alguna],a[morirán]]]]	1
 pensamiento[sorprenderá,inmortales[no,somos,eterna[estética]]]	1
 ignoramos[solo[pensamiento[pensó,ese]],vamos[vez]]	1
-pensamiento[",Ah[.],pensó[\\,],ese]	2
+pensamiento[",Ah[.],pensó[\\,],ese]	1
 ignoramos[solo[pensamiento[inmortales[eterna[vida,es]]]]]	1
 pensamiento[un,inmortales[\\,,eterna[estética,en]]]	1
 pensamiento[sorprenderá[que],inmortales[:,\\,,eterna]]	1
@@ -2513,7 +2513,7 @@ pensamiento[un,sorprenderá,inmortales[\\,,eterna[estética]]]	1
 ignoramos[solo[pensamiento[pensó[\\,,\\,]]],vamos]	1
 solo[pensamiento[",Ah,pensó[adentros[para]]]]	1
 pensamiento[sorprenderá,inmortales[eterna[vida,no,es]]]	1
-inmortales[ignoramos[solo[pensamiento[Ah,pensó[\\,]]]]]	2
+inmortales[ignoramos[solo[pensamiento[Ah,pensó[\\,]]]]]	1
 pensamiento[un,inmortales[eterna[no,estética,en]]]	1
 solo[pensamiento[sorprenderá,inmortales[no,\\,,eterna]]]	1
 solo[pensamiento[un,sorprenderá,inmortales[eterna[en]]]]	1
@@ -2549,7 +2549,7 @@ inmortales[ignoramos[solo[pensamiento[inmortales]],vamos],...]	1
 pensamiento[inmortales[:,no,eterna[vida,en]]]	1
 pensamiento[pensó[tigre,adentros[para,sus]],es]	1
 ignoramos[solo[pensamiento[Ah,pensó[tigre],ese]]]	1
-solo[pensamiento[",pensó[\\,],ese,es]]	2
+solo[pensamiento[",pensó[\\,],ese,es]]	1
 pensamiento[",pensó[\\,,adentros[para],\\,]]	1
 pensamiento[inmortales[\\,,eterna[vida,en[particular]]]]	1
 pensamiento[",pensó[\\,,tigre,adentros,\\,]]	1
@@ -2611,12 +2611,12 @@ inmortales[no,somos,\\,,eterna[en[particular]]]	1
 pensamiento[inmortales[no,\\,,eterna[en[particular]]]]	1
 solo[pensamiento[",Ah[.],pensó,ese]]	1
 ignoramos[solo[pensamiento[inmortales[no]]],vamos[que]]	1
-solo[pensamiento[",Ah[.],pensó[\\,]]]	2
+solo[pensamiento[",Ah[.],pensó[\\,]]]	1
 solo[pensamiento[pensó[\\,,tigre,\\,],ese]]	1
 pensamiento[Ah[.],pensó[adentros[para,sus]]]	1
 ignoramos[solo[pensamiento[Ah,es]],vamos[vez]]	1
 pensamiento[",pensó[tigre[el]],ese,es]	1
-ignoramos[solo[pensamiento[",Ah,pensó[\\,]]]]	2
+ignoramos[solo[pensamiento[",Ah,pensó[\\,]]]]	1
 inmortales[somos,\\,,eterna[vida,estética,en]]	1
 inmortales[somos,\\,,eterna[no,en[particular]]]	1
 solo[pensamiento[pensó[\\,,tigre,\\,],es]]	1
@@ -2706,7 +2706,7 @@ pensamiento[un,inmortales[:,eterna[es,estética]]]	1
 inmortales[no,\\,,eterna[es,estética,en]]	1
 pensamiento[",Ah,pensó[adentros[sus],\\,]]	1
 inmortales[somos,ignoramos[solo,vamos[a[morirán]]]]	1
-inmortales[ignoramos[solo[pensamiento[pensó[\\,]]]],...]	2
+inmortales[ignoramos[solo[pensamiento[pensó[\\,]]]],...]	1
 pensamiento[un,inmortales[:,somos,\\,,eterna]]	1
 inmortales[ignoramos[solo[pensamiento[inmortales[somos]]],vamos]]	1
 ignoramos[solo[pensamiento[pensó[tigre],ese]],vamos]	1
@@ -2794,7 +2794,7 @@ inmortales[:,eterna[no,estética,en[particular]]]	1
 inmortales[somos,eterna[es,estética,en[particular]]]	1
 pensamiento[Ah[.],pensó[adentros],ese,es]	1
 pensamiento[sorprenderá,inmortales[no,\\,,eterna[no]]]	1
-ignoramos[solo[pensamiento[Ah,pensó[\\,]]],vamos]	2
+ignoramos[solo[pensamiento[Ah,pensó[\\,]]],vamos]	1
 inmortales[:,\\,,eterna[vida[la],en]]	1
 pensamiento[pensó[tigre[el],adentros,\\,],es]	1
 solo[pensamiento[pensó[\\,,tigre,adentros],es]]	1
@@ -2869,7 +2869,7 @@ pensamiento[",pensó[\\,,adentros[sus]],es]	1
 pensamiento[pensó[\\,,tigre,adentros[para]],ese]	1
 inmortales[somos,ignoramos[solo[pensamiento[un,inmortales]]]]	1
 pensamiento[inmortales[no,\\,,eterna[vida,es]]]	1
-pensamiento[Ah[.],pensó[\\,],ese,es]	2
+pensamiento[Ah[.],pensó[\\,],ese,es]	1
 solo[pensamiento[",pensó[adentros[para],\\,]]]	1
 pensamiento[Ah[.[mente]],pensó[tigre],ese]	1
 ignoramos[solo[pensamiento[inmortales[:,eterna[no]]]]]	1
@@ -2879,7 +2879,7 @@ inmortales[ignoramos[solo[pensamiento[inmortales[somos,eterna]]]]]	1
 inmortales[:,no,\\,,eterna[vida,es]]	1
 solo[pensamiento[Ah[.[mente]],pensó,es]]	1
 pensamiento[un,inmortales[:,eterna[no,estética]]]	1
-inmortales[ignoramos[solo[pensamiento[",pensó[\\,]]]]]	2
+inmortales[ignoramos[solo[pensamiento[",pensó[\\,]]]]]	1
 pensamiento[un,inmortales[no,eterna[es,en]]]	1
 solo[pensamiento[inmortales[no,eterna[vida,es]]]]	1
 inmortales[ignoramos[solo[pensamiento[pensó[adentros[sus]]]]]]	1
@@ -2913,14 +2913,14 @@ solo[pensamiento[inmortales[:,eterna[vida,no]]]]	1
 inmortales[ignoramos[solo[pensamiento[inmortales[no,\\,]]]]]	1
 inmortales[ignoramos[solo[pensamiento[pensó]],vamos[vez]]]	1
 ignoramos[solo[pensamiento[sorprenderá]],vamos[a[morirán]]]	1
-inmortales[ignoramos[solo[pensamiento[pensó[\\,],ese]]]]	2
+inmortales[ignoramos[solo[pensamiento[pensó[\\,],ese]]]]	1
 inmortales[:,no,eterna[vida,no,es]]	1
 ignoramos[solo[pensamiento[pensó]],vamos[que[.]]]	1
 pensamiento[",Ah,pensó[\\,,adentros],es]	1
 pensamiento[inmortales[somos,\\,,eterna[es,en]]]	1
 solo[pensamiento[inmortales[somos,\\,,eterna[en]]]]	1
 pensamiento[sorprenderá[que],inmortales[eterna[en[particular]]]]	1
-ignoramos[solo[pensamiento[Ah[.],pensó[\\,]]]]	2
+ignoramos[solo[pensamiento[Ah[.],pensó[\\,]]]]	1
 inmortales[ignoramos[solo[pensamiento[Ah[.]]]],...]	1
 pensamiento[inmortales[:,no,eterna[estética,en]]]	1
 inmortales[somos,ignoramos[solo[pensamiento],vamos[que]]]	1
@@ -2954,7 +2954,7 @@ pensamiento[inmortales[eterna[vida,es,en[particular]]]]	1
 pensamiento[",Ah,pensó[\\,,tigre,\\,]]	1
 inmortales[:,somos,eterna[vida,estética,en]]	1
 pensamiento[sorprenderá[que],inmortales[:,somos,eterna]]	1
-pensamiento[",Ah[.[mente]],pensó[\\,]]	2
+pensamiento[",Ah[.[mente]],pensó[\\,]]	1
 solo[pensamiento[inmortales[:,eterna[vida,estética]]]]	1
 pensamiento[un,inmortales[eterna[vida[la],es]]]	1
 pensamiento[sorprenderá,inmortales[eterna[vida[la],es]]]	1
@@ -3093,7 +3093,7 @@ pensamiento[sorprenderá[los],inmortales[:,no,eterna]]	1
 solo[pensamiento[sorprenderá[los],inmortales[\\,,eterna]]]	1
 inmortales[\\,,eterna[vida,es,en[particular]]]	1
 inmortales[no,somos,\\,,eterna[es,en]]	1
-ignoramos[solo[pensamiento[pensó[\\,],ese]],vamos]	2
+ignoramos[solo[pensamiento[pensó[\\,],ese]],vamos]	1
 inmortales[ignoramos[vamos[vez[alguna],a]],...]	1
 pensamiento[inmortales[\\,,eterna[vida,es,estética]]]	1
 pensamiento[Ah,pensó[\\,,tigre],ese,es]	1
@@ -3154,7 +3154,7 @@ inmortales[ignoramos[solo[pensamiento[un,sorprenderá]]],...]	1
 pensamiento[sorprenderá[que,los],inmortales[\\,,eterna]]	1
 ignoramos[solo[pensamiento[pensó]],vamos[a[morirán]]]	1
 pensamiento[inmortales[\\,,eterna[no,estética,en]]]	1
-pensamiento[",Ah,pensó[\\,],ese,es]	2
+pensamiento[",Ah,pensó[\\,],ese,es]	1
 inmortales[ignoramos[solo[pensamiento[",Ah]]],...]	1
 pensamiento[Ah[.[mente]],pensó,ese,es]	1
 solo[pensamiento[un,inmortales[no,somos,\\,]]]	1
@@ -3390,7 +3390,7 @@ pensamiento[",pensó[\\,,adentros[para]],es]	1
 pensamiento[Ah,pensó[tigre[el],adentros[para]]]	1
 pensamiento[un,sorprenderá[que],inmortales[eterna[vida]]]	1
 ignoramos[solo[pensamiento[inmortales[no,eterna[estética]]]]]	1
-inmortales[somos,ignoramos[solo[pensamiento[pensó[\\,]]]]]	2
+inmortales[somos,ignoramos[solo[pensamiento[pensó[\\,]]]]]	1
 solo[pensamiento[",pensó[tigre,\\,],ese]]	1
 pensamiento[inmortales[eterna[vida[la],es,en]]]	1
 pensamiento[sorprenderá,inmortales[:,no,eterna[en]]]	1
@@ -3451,7 +3451,7 @@ pensamiento[un,inmortales[\\,,eterna[vida,es]]]	1
 pensamiento[pensó[\\,,tigre,adentros[para]],es]	1
 pensamiento[inmortales[somos,eterna[estética,en[particular]]]]	1
 ignoramos[solo[pensamiento[inmortales[somos,eterna[estética]]]]]	1
-solo[pensamiento[",Ah,pensó[\\,],es]]	2
+solo[pensamiento[",Ah,pensó[\\,],es]]	1
 ignoramos[solo[pensamiento[",ese,es]],vamos]	1
 inmortales[:,eterna[vida,estética,en[particular]]]	1
 ignoramos[solo[pensamiento[inmortales]],vamos[a[morirán]]]	1
@@ -3487,7 +3487,7 @@ inmortales[:,somos,\\,,eterna[vida[la]]]	1
 inmortales[ignoramos[solo,vamos[vez,a[morirán]]]]	1
 pensamiento[Ah[.[mente]],pensó[tigre],es]	1
 solo[pensamiento[",Ah[.[mente]],pensó]]	1
-inmortales[ignoramos[solo[pensamiento[pensó[\\,]]],vamos]]	2
+inmortales[ignoramos[solo[pensamiento[pensó[\\,]]],vamos]]	1
 inmortales[somos,ignoramos[solo[pensamiento[pensó[tigre]]]]]	1
 inmortales[somos,\\,,eterna[vida[la],no]]	1
 solo[pensamiento[inmortales[somos,eterna[vida,es]]]]	1
@@ -3628,7 +3628,7 @@ pensamiento[un,inmortales[eterna[vida[la],en]]]	1
 inmortales[no,somos,\\,,eterna[vida[la]]]	1
 pensamiento[inmortales[:,somos,\\,,eterna[es]]]	1
 solo[pensamiento[inmortales[no,eterna[es,estética]]]]	1
-pensamiento[Ah[.[mente]],pensó[\\,],ese]	2
+pensamiento[Ah[.[mente]],pensó[\\,],ese]	1
 pensamiento[Ah,pensó[\\,,tigre,\\,],ese]	1
 pensamiento[un,sorprenderá,inmortales[:,no,eterna]]	1
 solo[pensamiento[inmortales[somos,eterna[vida,no]]]]	1
@@ -3719,7 +3719,7 @@ pensamiento[",pensó[tigre,adentros[para,sus]]]	1
 pensamiento[inmortales[:,eterna[vida,es,estética]]]	1
 pensamiento[sorprenderá,inmortales[eterna[no,en[particular]]]]	1
 ignoramos[solo[pensamiento[sorprenderá[que,los],inmortales]]]	1
-pensamiento[Ah[.[mente[su]]],pensó[\\,]]	2
+pensamiento[Ah[.[mente[su]]],pensó[\\,]]	1
 solo[pensamiento[Ah[.],pensó,ese,es]]	1
 pensamiento[sorprenderá,inmortales[:,eterna[vida,estética]]]	1
 inmortales[ignoramos[solo[pensamiento[inmortales[eterna]]]],...]	1
@@ -3779,7 +3779,7 @@ pensamiento[",pensó[adentros[sus],\\,],es]	1
 ignoramos[solo[pensamiento[pensó,es]],vamos[vez]]	1
 inmortales[no,eterna[vida[la],es,en]]	1
 inmortales[ignoramos[solo[pensamiento[un,sorprenderá[que]]]]]	1
-pensamiento[",Ah[.],pensó[\\,],es]	2
+pensamiento[",Ah[.],pensó[\\,],es]	1
 solo[pensamiento[un,inmortales[eterna[no,estética]]]]	1
 ignoramos[solo[pensamiento[inmortales[eterna[no]]]],vamos]	1
 pensamiento[inmortales[:,eterna[vida,en[particular]]]]	1
@@ -3857,7 +3857,7 @@ pensamiento[inmortales[:,no,\\,,eterna[en]]]	1
 pensamiento[pensó[tigre[el],adentros[para]],ese]	1
 inmortales[no,eterna[vida,no,estética,en]]	1
 ignoramos[solo[pensamiento[",pensó,ese]],vamos]	1
-ignoramos[solo[pensamiento[pensó[\\,]]],vamos[que]]	2
+ignoramos[solo[pensamiento[pensó[\\,]]],vamos[que]]	1
 inmortales[somos,ignoramos[solo[pensamiento[inmortales]],vamos]]	1
 ignoramos[solo[pensamiento[Ah[.],pensó]],vamos]	1
 inmortales[somos,eterna[vida,es,en[particular]]]	1
@@ -3919,13 +3919,13 @@ solo[pensamiento[un,inmortales[:,no,\\,]]]	1
 ignoramos[solo[pensamiento[inmortales[eterna[es,en]]]]]	1
 ignoramos[solo[pensamiento[pensó[adentros],ese,es]]]	1
 solo[pensamiento[un,inmortales[:,eterna[es]]]]	1
-ignoramos[solo[pensamiento[",pensó[\\,],ese]]]	2
+ignoramos[solo[pensamiento[",pensó[\\,],ese]]]	1
 pensamiento[",Ah,pensó[tigre],ese,es]	1
 ignoramos[solo[pensamiento[sorprenderá[los],inmortales]],vamos]	1
 pensamiento[pensó[\\,,tigre,adentros[sus],\\,]]	1
 pensamiento[inmortales[:,eterna[es,estética,en]]]	1
 pensamiento[sorprenderá,inmortales[no,somos,\\,,eterna]]	1
-ignoramos[solo[pensamiento[pensó[\\,]]],vamos[vez]]	2
+ignoramos[solo[pensamiento[pensó[\\,]]],vamos[vez]]	1
 inmortales[ignoramos[solo[pensamiento[ese]],vamos[que]]]	1
 solo[pensamiento[pensó[tigre,adentros,\\,],ese]]	1
 solo[pensamiento[Ah[.[mente[su]]],ese]]	1
@@ -3941,7 +3941,7 @@ inmortales[ignoramos[vamos[que,vez[alguna],a]]]	1
 ignoramos[solo[pensamiento[pensó[tigre,\\,],ese]]]	1
 ignoramos[solo[pensamiento[pensó[tigre,adentros],ese]]]	1
 inmortales[ignoramos[solo[pensamiento[un,inmortales[\\,]]]]]	1
-solo[pensamiento[",Ah,pensó[\\,],ese]]	2
+solo[pensamiento[",Ah,pensó[\\,],ese]]	1
 pensamiento[",Ah,pensó[adentros[sus]],es]	1
 inmortales[:,no,eterna[vida,no,estética]]	1
 pensamiento[sorprenderá,inmortales[:,no,eterna[vida]]]	1
@@ -3969,7 +3969,7 @@ inmortales[no,eterna[vida,es,en[particular]]]	1
 inmortales[no,somos,eterna[vida[la],es]]	1
 inmortales[:,no,eterna[vida[la],es]]	1
 ignoramos[solo[pensamiento[inmortales[:,eterna[es]]]]]	1
-pensamiento[Ah[.[mente]],pensó[\\,],es]	2
+pensamiento[Ah[.[mente]],pensó[\\,],es]	1
 pensamiento[un,inmortales[\\,,eterna[no,es]]]	1
 inmortales[:,somos,eterna[vida[la],estética]]	1
 pensamiento[Ah[.],pensó[\\,,tigre],es]	1

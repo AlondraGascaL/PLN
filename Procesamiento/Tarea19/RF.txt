@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     vote
+Instances:    435
+Attributes:   17
+              handicapped-infants
+              water-project-cost-sharing
+              adoption-of-the-budget-resolution
+              physician-fee-freeze
+              el-salvador-aid
+              religious-groups-in-schools
+              anti-satellite-test-ban
+              aid-to-nicaraguan-contras
+              mx-missile
+              immigration
+              synfuels-corporation-cutback
+              education-spending
+              superfund-right-to-sue
+              crime
+              duty-free-exports
+              export-administration-act-south-africa
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.22 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         418               96.092  %
+Incorrectly Classified Instances        17                3.908  %
+Kappa statistic                          0.9175
+Mean absolute error                      0.0714
+Root mean squared error                  0.1742
+Relative absolute error                 15.0587 %
+Root relative squared error             35.7776 %
+Total Number of Instances              435     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.970    0.054    0.966      0.970    0.968      0.917    0.993     0.996     democrat
+                 0.946    0.030    0.952      0.946    0.949      0.917    0.993     0.988     republican
+Weighted Avg.    0.961    0.044    0.961      0.961    0.961      0.917    0.993     0.993     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 259   8 |   a = democrat
+   9 159 |   b = republican
+
