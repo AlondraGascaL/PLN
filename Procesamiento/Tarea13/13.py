@@ -3,10 +3,44 @@ import numpy as np
 import pandas as pd
 #Nos ayuda para expresiones regualres 
 import re
+import math
 from math import log
-from numpy import dot
-from numpy.linalg import norm
 
+def simCoseno(x, y):
+    #Listas auxiliares
+    a = []
+    b = []
+    #Obteer los valores de las listas
+    x = x[:]        
+    y = y[:]  
+    #Variables para las listas
+    suma_de_notas = 0
+    suma_de_notas2 = 0
+    
+    #Multiplicación
+    product = [x1*y1 for x1,y1 in zip(x,y)]
+    
+    #Suma de elementos de la lista
+    listSum = sum(product)
+    
+    #Obtener las potencias de las listas y guardar en listas auxiliares
+    for i,o in zip(x,y):
+        a.append(pow(i,2))
+        b.append(pow(o,2))
+    
+    #sumar las listas de potencias
+    for nota1, nota2 in zip(a,b):
+        suma_de_notas  += nota1
+        suma_de_notas2  += nota2
+    
+    #calcular la raiz
+    raiz1 = math.sqrt(suma_de_notas)
+    raiz2 = math.sqrt(suma_de_notas2)
+    
+    #Calcular similitud coseno
+    sim = listSum/((raiz1)*(raiz2))
+    return sim
+    
 #Funcion para calcular la TF-IDF
 def computeTFIDF(tfBagOfWords, idfs):
     tfidf = {}
@@ -81,7 +115,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f3 = open ('TF.txt','w',encoding="utf8")
+f3 = open ('TF_palabras.txt','w',encoding="utf8")
 f3.write(str(dataframe2))
 f3.close()
 
@@ -103,7 +137,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f3 = open ('IDF.txt','w',encoding="utf8")
+f3 = open ('IDF_palabras.txt','w',encoding="utf8")
 f3.write(str(dataframe3))
 f3.close()
 
@@ -126,17 +160,38 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 #Immprimir tabla en el txt
-f = open ('TF-IDF.txt','w',encoding="utf8")
+f = open ('TF-IDF_palabras.txt','w',encoding="utf8")
 f.write(str(dataframe1))
 f.close()
 
 
-#************************Calcular similitud coseno entre los vectores******************************
-result1 = dot(tfidfTexto_1, tfidfTexto_2)/(norm(tfidfTexto_1)*norm(tfidfTexto_2))
-print("La similitud coseno entre Texto 1 y Texto 2 es de: " , result1)
+#Obtener los valores del TF_IDF y pasarlos a una lista para calcular similitud coseno
+tex1 =tfidfTexto_1.values()
+tex1 = list(tex1)
+tex2 =tfidfTexto_2.values()
+tex2 = list(tex2)
+tex3 =tfidfTexto_3.values()
+tex3 = list(tex3)
 
-result2 = dot(tfidfTexto_1, tfidfTexto_3)/(norm(tfidfTexto_1)*norm(tfidfTexto_3))
-print("La similitud coseno entre Texto 1 y Texto 3 es de: " , result2)
+#Similitud de coseno
+sim1 = simCoseno(tex1,tex2)
+sim2 = simCoseno(tex1,tex3)
+sim3 = simCoseno(tex2,tex3)
+print("\n\nSimilitud coseno de las palabras")
+print("Sim(Texto1, Texto2)= ",sim1)
+print("Sim(Texto1, Texto3)= ",sim2)
+print("Sim(Texto2, Texto3)= ",sim3)
 
-result3 = dot(tfidfTexto_2, tfidfTexto_3)/(norm(tfidfTexto_2)*norm(tfidfTexto_3))
-print("La similitud coseno entre Texto 2 y Texto 3 es de: " , result3)
+#Imprimir de forma tabular las frecuencias y los índices que corresponden a los textos que se van a analizar con ayuda de pandas
+tf_idf = pd.DataFrame([sim1,sim2,sim3], index=['Texto 1/Texto 2', 'Texto 1/Texto 3', 'Texto 2/Texto 3'])
+dataframe1 = tf_idf.transpose()
+dataframe1.rename(index={0:'Similitud Cos'}, inplace=True)
+dataframe1.head()
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+
+#Immprimir tabla en el txt
+f = open ('simCoseno_palabras.txt','w',encoding="utf8")
+f.write(str(dataframe1))
+f.close()
